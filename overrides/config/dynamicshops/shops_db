@@ -1,0 +1,3312 @@
+"1" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="minecraft:anvil"
+        UnsafeDamage=0
+    }
+    k=2.0
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=378.0
+        Y=101.0
+        Z=35.0
+    }
+    max=4000.0
+    min=1200.0
+    name=anvil
+    offset=-0.2938933324510595
+    type=ItemShop
+}
+"2" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="minecraft:log2"
+        UnsafeDamage=0
+    }
+    k=0.002
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=385.0
+        Y=101.0
+        Z=31.0
+    }
+    max=1000.0
+    min=10.0
+    name=Log
+    offset=-2397.2677585939614
+    type=ItemShop
+}
+"3" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="minecraft:glowstone_dust"
+        UnsafeDamage=0
+    }
+    k=0.05
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=358.0
+        Y=101.0
+        Z=30.0
+    }
+    max=700.0
+    min=35.0
+    name=glowstone
+    offset=-323.4703608648356
+    type=ItemShop
+}
+"4" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="minecraft:dye"
+        UnsafeDamage=4
+    }
+    k=0.05
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=360.0
+        Y=101.0
+        Z=56.0
+    }
+    max=700.0
+    min=90.0
+    name=lapis
+    offset=-359.88689124444204
+    type=ItemShop
+}
+"5" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="forestry:logs.0"
+        UnsafeDamage=3
+    }
+    k=0.002
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=376.0
+        Y=101.0
+        Z=26.0
+    }
+    max=1000.0
+    min=10.0
+    name=Log
+    offset=-3101.2677585939614
+    type=ItemShop
+}
+"6" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="forestry:logs.2"
+        UnsafeDamage=0
+    }
+    k=0.002
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=360.0
+        Y=101.0
+        Z=26.0
+    }
+    max=1000.0
+    min=10.0
+    name=Log
+    offset=-3101.2677585939614
+    type=ItemShop
+}
+"7" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="tconstruct:firewood"
+        UnsafeDamage=1
+    }
+    k=0.002
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=385.0
+        Y=101.0
+        Z=55.0
+    }
+    max=1000.0
+    min=200.0
+    name=Log
+    offset=-2985.4807084449317
+    type=ItemShop
+}
+"8" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="forestry:logs.4"
+        UnsafeDamage=1
+    }
+    k=0.002
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=351.0
+        Y=101.0
+        Z=39.0
+    }
+    max=1000.0
+    min=10.0
+    name=Log
+    offset=-3101.2677585939614
+    type=ItemShop
+}
+"9" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="galacticraftplanets:item_basic_asteroids"
+        UnsafeDamage=0
+    }
+    k=0.01
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=380.0
+        Y=101.0
+        Z=56.0
+    }
+    max=7000.0
+    min=1600.0
+    name=titanium
+    offset=-2269.919985480926
+    type=ItemShop
+}
+"10" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="thermalfoundation:material"
+        UnsafeDamage=135
+    }
+    k=0.01
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=376.0
+        Y=101.0
+        Z=56.0
+    }
+    max=5000.0
+    min=1350.0
+    name=iridium
+    offset=-631.2138346678933
+    type=ItemShop
+}
+"11" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="minecraft:obsidian"
+        UnsafeDamage=0
+    }
+    k=0.05
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=372.0
+        Y=101.0
+        Z=33.0
+    }
+    max=120.0
+    min=50.0
+    name=obsidian
+    offset=-60190.0
+    type=ItemShop
+}
+"12" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="forestry:logs.2"
+        UnsafeDamage=3
+    }
+    k=0.002
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=354.0
+        Y=101.0
+        Z=26.0
+    }
+    max=1000.0
+    min=10.0
+    name=Log
+    offset=-3101.2677585939614
+    type=ItemShop
+}
+"13" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="thermalfoundation:material"
+        UnsafeDamage=893
+    }
+    k=0.05
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=381.0
+        Y=101.0
+        Z=37.0
+    }
+    max=1200.0
+    min=210.0
+    name="red_clatherite"
+    offset=-77.07187853750116
+    type=ItemShop
+}
+"14" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="minecraft:log"
+        UnsafeDamage=0
+    }
+    k=0.002
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=385.0
+        Y=101.0
+        Z=39.0
+    }
+    max=1000.0
+    min=10.0
+    name=Log
+    offset=-4058.267758593962
+    type=ItemShop
+}
+"15" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="minecraft:melon_block"
+        UnsafeDamage=0
+    }
+    k=0.05
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=360.0
+        Y=101.0
+        Z=33.0
+    }
+    max=20.0
+    min=15.0
+    name=melon
+    offset=147.0
+    type=ItemShop
+}
+"16" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="randomthings:spectrelog"
+        UnsafeDamage=0
+    }
+    k=0.002
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=378.0
+        Y=101.0
+        Z=60.0
+    }
+    max=1000.0
+    min=350.0
+    name=Log
+    offset=-2603.405114858272
+    type=ItemShop
+}
+"17" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="forestry:logs.0"
+        UnsafeDamage=0
+    }
+    k=0.002
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=382.0
+        Y=101.0
+        Z=26.0
+    }
+    max=1000.0
+    min=10.0
+    name=Log
+    offset=-3101.2677585939614
+    type=ItemShop
+}
+"18" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="galacticraftcore:item_basic_moon"
+        UnsafeDamage=2
+    }
+    k=0.05
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=381.0
+        Y=101.0
+        Z=53.0
+    }
+    max=2250.0
+    min=400.0
+    name=sapphire
+    offset=-93.2042640069318
+    type=ItemShop
+}
+"19" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="minecraft:coal"
+        UnsafeDamage=0
+    }
+    k=0.05
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=364.0
+        Y=101.0
+        Z=56.0
+    }
+    max=600.0
+    min=60.0
+    name=coal
+    offset=-1899.4058382710427
+    type=ItemShop
+}
+"20" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="minecraft:pumpkin"
+        UnsafeDamage=0
+    }
+    k=0.05
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=358.0
+        Y=101.0
+        Z=35.0
+    }
+    max=20.0
+    min=15.0
+    name=pumpkin
+    offset=-831.0
+    type=ItemShop
+}
+"21" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="harvestcraft:pampaperbark"
+        UnsafeDamage=0
+    }
+    k=0.002
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=376.0
+        Y=101.0
+        Z=60.0
+    }
+    max=1000.0
+    min=200.0
+    name=Log
+    offset=-2994.4807084449317
+    type=ItemShop
+}
+"22" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="minecraft:dirt"
+        UnsafeDamage=2
+    }
+    k=0.05
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=363.0
+        Y=101.0
+        Z=53.0
+    }
+    max=12.0
+    min=7.0
+    name=podzol
+    offset=0.0
+    type=ItemShop
+}
+"23" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="minecraft:log"
+        UnsafeDamage=2
+    }
+    k=0.002
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=385.0
+        Y=101.0
+        Z=35.0
+    }
+    max=1000.0
+    min=10.0
+    name=Log
+    offset=-3147.2677585939614
+    type=ItemShop
+}
+"24" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="minecraft:grass"
+        UnsafeDamage=0
+    }
+    k=0.05
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=364.0
+        Y=101.0
+        Z=53.0
+    }
+    max=12.0
+    min=7.0
+    name=grass
+    offset=261.0
+    type=ItemShop
+}
+"25" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="galaxyspace:ingots"
+        UnsafeDamage=0
+    }
+    k=0.05
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=374.0
+        Y=101.0
+        Z=30.0
+    }
+    max=900.0
+    min=150.0
+    name=cobalt
+    offset=-146.47195112241587
+    type=ItemShop
+}
+"26" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="galaxyspace:ingots"
+        UnsafeDamage=1
+    }
+    k=0.05
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=362.0
+        Y=101.0
+        Z=30.0
+    }
+    max=900.0
+    min=90.0
+    name=magnesium
+    offset=-249.2018956809454
+    type=ItemShop
+}
+"27" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="bigreactors:ingotyellorium"
+        UnsafeDamage=0
+    }
+    k=0.05
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=355.0
+        Y=101.0
+        Z=55.0
+    }
+    max=1200.0
+    min=300.0
+    name=yellorium
+    offset=340.9447406300926
+    type=ItemShop
+}
+"28" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="minecraft:coal"
+        UnsafeDamage=1
+    }
+    k=0.05
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=356.0
+        Y=101.0
+        Z=30.0
+    }
+    max=700.0
+    min=25.0
+    name=charcoal
+    offset=-76.12240229728607
+    type=ItemShop
+}
+"29" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="nuclearcraft:ingot"
+        UnsafeDamage=3
+    }
+    k=0.05
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=380.0
+        Y=101.0
+        Z=30.0
+    }
+    max=1200.0
+    min=210.0
+    name=thorium
+    offset=-1728.4743115782605
+    type=ItemShop
+}
+"30" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="tconstruct:firewood"
+        UnsafeDamage=0
+    }
+    k=0.002
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=385.0
+        Y=101.0
+        Z=57.0
+    }
+    max=1000.0
+    min=200.0
+    name=Log
+    offset=-2968.4807084449317
+    type=ItemShop
+}
+"31" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="forestry:logs.6"
+        UnsafeDamage=3
+    }
+    k=0.002
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=360.0
+        Y=101.0
+        Z=60.0
+    }
+    max=1000.0
+    min=10.0
+    name=Log
+    offset=-3101.2677585939614
+    type=ItemShop
+}
+"32" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="forestry:can"
+        UnsafeDamage=1
+        UnsafeData {
+            Fluid {
+                Amount=1000
+                FluidName=water
+            }
+        }
+    }
+    k=0.05
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=358.0
+        Y=101.0
+        Z=37.0
+    }
+    max=20.0
+    min=4.0
+    name=water
+    offset=200.0
+    type=ItemShop
+}
+"33" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="minecraft:iron_ingot"
+        UnsafeDamage=0
+    }
+    k=0.05
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=358.0
+        Y=101.0
+        Z=56.0
+    }
+    max=140.0
+    min=70.0
+    name="iron_ingot"
+    offset=-1418.835189384561
+    type=ItemShop
+}
+"34" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="galaxyspace:ingots"
+        UnsafeDamage=2
+    }
+    k=0.05
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=364.0
+        Y=101.0
+        Z=30.0
+    }
+    max=900.0
+    min=90.0
+    name=nickel
+    offset=-46.2018956809454
+    type=ItemShop
+}
+"35" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="harvestcraft:pamcinnamon"
+        UnsafeDamage=0
+    }
+    k=0.002
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=372.0
+        Y=101.0
+        Z=60.0
+    }
+    max=1000.0
+    min=200.0
+    name=Log
+    offset=-2994.4807084449317
+    type=ItemShop
+}
+"36" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="sgcraft:naquadah"
+        UnsafeDamage=0
+    }
+    k=0.05
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=381.0
+        Y=101.0
+        Z=35.0
+    }
+    max=700.0
+    min=400.0
+    name=naquadah
+    offset=-3873.8629436111987
+    type=ItemShop
+}
+"37" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="forestry:logs.0"
+        UnsafeDamage=2
+    }
+    k=0.002
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=378.0
+        Y=101.0
+        Z=26.0
+    }
+    max=1000.0
+    min=10.0
+    name=Log
+    offset=-2973.2677585939614
+    type=ItemShop
+}
+"38" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="galacticraftcore:schematic"
+        UnsafeDamage=1
+    }
+    k=0.0
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=374.0
+        Y=101.0
+        Z=22.0
+    }
+    max=10000.0
+    min=10000.0
+    name="moon_buggy_schematic"
+    offset=5.0
+    type=ItemShop
+}
+"39" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="forestry:logs.2"
+        UnsafeDamage=1
+    }
+    k=0.002
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=358.0
+        Y=101.0
+        Z=26.0
+    }
+    max=1000.0
+    min=10.0
+    name=Log
+    offset=-3037.2677585939614
+    type=ItemShop
+}
+"40" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="forestry:logs.1"
+        UnsafeDamage=1
+    }
+    k=0.002
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=372.0
+        Y=101.0
+        Z=26.0
+    }
+    max=1000.0
+    min=10.0
+    name=Log
+    offset=-3101.2677585939614
+    type=ItemShop
+}
+"41" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="minecraft:prismarine"
+        UnsafeDamage=0
+    }
+    k=0.05
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=376.0
+        Y=101.0
+        Z=53.0
+    }
+    max=180.0
+    min=80.0
+    name=prismarine
+    offset=0.0
+    type=ItemShop
+}
+"42" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="minecraft:hopper"
+        UnsafeDamage=0
+    }
+    k=0.05
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=378.0
+        Y=101.0
+        Z=36.0
+    }
+    max=800.0
+    min=120.0
+    name=hopper
+    offset=-3.133498878774649
+    type=ItemShop
+}
+"43" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="minecraft:bookshelf"
+        UnsafeDamage=0
+    }
+    k=0.05
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=375.0
+        Y=101.0
+        Z=33.0
+    }
+    max=100.0
+    min=30.0
+    name=Bookshelf
+    offset=292.1648106154389
+    type=ItemShop
+}
+"44" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="minecraft:brick_block"
+        UnsafeDamage=0
+    }
+    k=0.05
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=373.0
+        Y=101.0
+        Z=53.0
+    }
+    max=180.0
+    min=50.0
+    name=sponge
+    offset=8.400072584914714
+    type=ItemShop
+}
+"45" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="forestry:logs.3"
+        UnsafeDamage=3
+    }
+    k=0.002
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=351.0
+        Y=101.0
+        Z=35.0
+    }
+    max=1000.0
+    min=10.0
+    name=Log
+    offset=-3069.2677585939614
+    type=ItemShop
+}
+"46" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="galaxyspace:gs_basic"
+        UnsafeDamage=10
+    }
+    k=0.0
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=376.0
+        Y=101.0
+        Z=22.0
+    }
+    max=90000.0
+    min=90000.0
+    name="schematic_box"
+    offset=11.0
+    type=ItemShop
+}
+"47" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="forestry:logs.6"
+        UnsafeDamage=0
+    }
+    k=0.002
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=354.0
+        Y=101.0
+        Z=60.0
+    }
+    max=1000.0
+    min=10.0
+    name=Log
+    offset=-3099.2677585939614
+    type=ItemShop
+}
+"48" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="galacticraftplanets:schematic"
+        UnsafeDamage=2
+    }
+    k=0.0
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=378.0
+        Y=101.0
+        Z=22.0
+    }
+    max=45000.0
+    min=45000.0
+    name="astro_miner"
+    offset=-1.0
+    type=ItemShop
+}
+"49" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="forestry:logs.3"
+        UnsafeDamage=2
+    }
+    k=0.002
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=351.0
+        Y=101.0
+        Z=33.0
+    }
+    max=1000.0
+    min=10.0
+    name=Log
+    offset=-3101.2677585939614
+    type=ItemShop
+}
+"50" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="minecraft:netherrack"
+        UnsafeDamage=0
+    }
+    k=0.05
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=364.0
+        Y=101.0
+        Z=33.0
+    }
+    max=30.0
+    min=12.0
+    name=netherrack
+    offset=-7725.0
+    type=ItemShop
+}
+"51" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=2
+        ItemType="minecraft:diamond"
+        UnsafeDamage=0
+    }
+    k=0.05
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=355.0
+        Y=101.0
+        Z=49.0
+    }
+    max=600.0
+    min=200.0
+    name=diamond
+    offset=-1253.9722457733621
+    type=ItemShop
+}
+"52" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="galaxyspace:ingots"
+        UnsafeDamage=2
+    }
+    k=0.05
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=372.0
+        Y=101.0
+        Z=30.0
+    }
+    max=900.0
+    min=90.0
+    name=lead
+    offset=29.79810431905461
+    type=ItemShop
+}
+"53" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="forestry:logs.5"
+        UnsafeDamage=1
+    }
+    k=0.002
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=351.0
+        Y=101.0
+        Z=53.0
+    }
+    max=1000.0
+    min=10.0
+    name=Log
+    offset=-3101.2677585939614
+    type=ItemShop
+}
+"54" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="forestry:logs.1"
+        UnsafeDamage=2
+    }
+    k=0.002
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=364.0
+        Y=101.0
+        Z=26.0
+    }
+    max=1000.0
+    min=10.0
+    name=Log
+    offset=-3037.2677585939614
+    type=ItemShop
+}
+"55" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="minecraft:web"
+        UnsafeDamage=0
+    }
+    k=0.05
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=376.0
+        Y=101.0
+        Z=33.0
+    }
+    max=140.0
+    min=70.0
+    name=Cobweb
+    offset=-256.8351893845611
+    type=ItemShop
+}
+"56" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="mekanism:ingot"
+        UnsafeDamage=1
+    }
+    k=0.05
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=356.0
+        Y=101.0
+        Z=56.0
+    }
+    max=700.0
+    min=110.0
+    name=osmium
+    offset=-4868.208860210929
+    type=ItemShop
+}
+"57" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="bigreactors:mineralbenitoite"
+        UnsafeDamage=0
+    }
+    k=0.05
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=381.0
+        Y=101.0
+        Z=47.0
+    }
+    max=2500.0
+    min=500.0
+    name=benitoite
+    offset=-100.69202110776212
+    type=ItemShop
+}
+"58" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="minecraft:log2"
+        UnsafeDamage=1
+    }
+    k=0.002
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=385.0
+        Y=101.0
+        Z=29.0
+    }
+    max=1000.0
+    min=10.0
+    name=Log
+    offset=-2996.2677585939614
+    type=ItemShop
+}
+"59" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="minecraft:dirt"
+        UnsafeDamage=0
+    }
+    k=0.05
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=361.0
+        Y=101.0
+        Z=53.0
+    }
+    max=12.0
+    min=7.0
+    name=dirt
+    offset=-381.0
+    type=ItemShop
+}
+"60" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="minecraft:redstone"
+        UnsafeDamage=0
+    }
+    k=0.05
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=362.0
+        Y=101.0
+        Z=56.0
+    }
+    max=600.0
+    min=40.0
+    name=redstone
+    offset=-5476.916737320087
+    type=ItemShop
+}
+"61" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="rftools:dimensional_shard"
+        UnsafeDamage=0
+    }
+    k=0.01
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=378.0
+        Y=101.0
+        Z=56.0
+    }
+    max=5000.0
+    min=1450.0
+    name=dimensionalShard
+    offset=-668.2972934304358
+    type=ItemShop
+}
+"62" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="minecraft:nether_wart_block"
+        UnsafeDamage=0
+    }
+    k=0.05
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=361.0
+        Y=101.0
+        Z=33.0
+    }
+    max=60.0
+    min=20.0
+    name="B_.nether_wart"
+    offset=-188.0
+    type=ItemShop
+}
+"63" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="minecraft:gold_ingot"
+        UnsafeDamage=0
+    }
+    k=0.05
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=355.0
+        Y=101.0
+        Z=53.0
+    }
+    max=700.0
+    min=150.0
+    name=gold
+    offset=50.2203190687145
+    type=ItemShop
+}
+"64" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="nuclearcraft:ingot"
+        UnsafeDamage=5
+    }
+    k=0.05
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=378.0
+        Y=101.0
+        Z=30.0
+    }
+    max=900.0
+    min=175.0
+    name=boron
+    offset=-1245.3570513024968
+    type=ItemShop
+}
+"65" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="galaxyspace:barnarda_c_test_glow_log"
+        UnsafeDamage=0
+    }
+    k=0.002
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=382.0
+        Y=101.0
+        Z=60.0
+    }
+    max=1000.0
+    min=350.0
+    name=Log
+    offset=-2603.405114858272
+    type=ItemShop
+}
+"66" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="harvestcraft:pammaple"
+        UnsafeDamage=0
+    }
+    k=0.002
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=374.0
+        Y=101.0
+        Z=60.0
+    }
+    max=1000.0
+    min=200.0
+    name=Log
+    offset=-2994.4807084449317
+    type=ItemShop
+}
+"67" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="botania:dreamwood"
+        UnsafeDamage=0
+    }
+    k=0.002
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=385.0
+        Y=101.0
+        Z=49.0
+    }
+    max=1000.0
+    min=300.0
+    name=Log
+    offset=-2724.086561046207
+    type=ItemShop
+}
+"68" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="tconstruct:ingots"
+        UnsafeDamage=1
+    }
+    k=0.05
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=381.0
+        Y=101.0
+        Z=33.0
+    }
+    max=1200.0
+    min=210.0
+    name=ardite
+    offset=-70.47431157826061
+    type=ItemShop
+}
+"69" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="minecraft:dye"
+        UnsafeDamage=3
+    }
+    k=0.05
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=347.0
+        Y=101.0
+        Z=39.0
+    }
+    max=80.0
+    min=35.0
+    name="cocoa_bean"
+    offset=104.41116916640328
+    type=ItemShop
+}
+"70" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="galacticraftcore:cheese_curd"
+        UnsafeDamage=0
+    }
+    k=0.05
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=381.0
+        Y=101.0
+        Z=51.0
+    }
+    max=2500.0
+    min=700.0
+    name=cheese
+    offset=-190.49098584102092
+    type=ItemShop
+}
+"71" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="forestry:logs.4"
+        UnsafeDamage=3
+    }
+    k=0.002
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=351.0
+        Y=101.0
+        Z=49.0
+    }
+    max=1000.0
+    min=10.0
+    name=Log
+    offset=-3101.2677585939614
+    type=ItemShop
+}
+"72" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="forestry:logs.7"
+        UnsafeDamage=0
+    }
+    k=0.002
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=362.0
+        Y=101.0
+        Z=60.0
+    }
+    max=1000.0
+    min=10.0
+    name=Log
+    offset=-3101.2677585939614
+    type=ItemShop
+}
+"73" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="forestry:logs.4"
+        UnsafeDamage=0
+    }
+    k=0.002
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=351.0
+        Y=101.0
+        Z=37.0
+    }
+    max=1000.0
+    min=10.0
+    name=Log
+    offset=-3102.2677585939614
+    type=ItemShop
+}
+"74" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="forestry:logs.6"
+        UnsafeDamage=2
+    }
+    k=0.002
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=358.0
+        Y=101.0
+        Z=60.0
+    }
+    max=1000.0
+    min=10.0
+    name=Log
+    offset=-3099.2677585939614
+    type=ItemShop
+}
+"75" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="ic2:blockrubwood"
+        UnsafeDamage=0
+    }
+    k=0.002
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=364.0
+        Y=101.0
+        Z=60.0
+    }
+    max=1000.0
+    min=10.0
+    name=Log
+    offset=-3028.2677585939614
+    type=ItemShop
+}
+"76" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="galacticraftplanets:item_basic_mars"
+        UnsafeDamage=2
+    }
+    k=0.05
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=381.0
+        Y=101.0
+        Z=55.0
+    }
+    max=2250.0
+    min=450.0
+    name=desh
+    offset=-285.6642668811244
+    type=ItemShop
+}
+"77" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="thermalfoundation:material"
+        UnsafeDamage=136
+    }
+    k=0.01
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=374.0
+        Y=101.0
+        Z=56.0
+    }
+    max=9000.0
+    min=2500.0
+    name="Mana_ingot"
+    offset=-81.09302162163286
+    type=ItemShop
+}
+"78" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="forestry:logs.6"
+        UnsafeDamage=1
+    }
+    k=0.002
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=356.0
+        Y=101.0
+        Z=60.0
+    }
+    max=1000.0
+    min=10.0
+    name=Log
+    offset=-3101.2677585939614
+    type=ItemShop
+}
+"79" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="nuclearcraft:ingot"
+        UnsafeDamage=6
+    }
+    k=0.05
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=376.0
+        Y=101.0
+        Z=30.0
+    }
+    max=900.0
+    min=170.0
+    name=lithium
+    offset=-863.2586630032582
+    type=ItemShop
+}
+"80" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="minecraft:white_shulker_box"
+        UnsafeDamage=0
+    }
+    k=0.05
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=378.0
+        Y=101.0
+        Z=47.0
+    }
+    max=1200.0
+    min=600.0
+    name="shulker_box"
+    offset=32.13705638880109
+    type=ItemShop
+}
+"81" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="minecraft:log"
+        UnsafeDamage=1
+    }
+    k=0.002
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=385.0
+        Y=101.0
+        Z=37.0
+    }
+    max=1000.0
+    min=10.0
+    name=Log
+    offset=-3101.2677585939614
+    type=ItemShop
+}
+"82" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="minecraft:nether_brick"
+        UnsafeDamage=0
+    }
+    k=0.05
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=362.0
+        Y=101.0
+        Z=33.0
+    }
+    max=35.0
+    min=16.0
+    name="nether_brick"
+    offset=-7.0
+    type=ItemShop
+}
+"83" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="galacticraftcore:basic_item"
+        UnsafeDamage=5
+    }
+    k=0.05
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=355.0
+        Y=101.0
+        Z=31.0
+    }
+    max=800.0
+    min=90.0
+    name=aluminum
+    offset=1393.58209166984
+    type=ItemShop
+}
+"84" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="minecraft:blaze_rod"
+        UnsafeDamage=0
+    }
+    k=0.05
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=373.0
+        Y=101.0
+        Z=33.0
+    }
+    max=60.0
+    min=20.0
+    name="blaze_rod"
+    offset=739.0
+    type=ItemShop
+}
+"85" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="minecraft:log"
+        UnsafeDamage=3
+    }
+    k=0.002
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=385.0
+        Y=101.0
+        Z=33.0
+    }
+    max=1000.0
+    min=10.0
+    name=Log
+    offset=-3099.2677585939614
+    type=ItemShop
+}
+"86" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="forestry:logs.0"
+        UnsafeDamage=1
+    }
+    k=0.002
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=380.0
+        Y=101.0
+        Z=26.0
+    }
+    max=1000.0
+    min=10.0
+    name=Log
+    offset=-3101.2677585939614
+    type=ItemShop
+}
+"87" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="forestry:logs.1"
+        UnsafeDamage=0
+    }
+    k=0.002
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=374.0
+        Y=101.0
+        Z=26.0
+    }
+    max=1000.0
+    min=10.0
+    name=Log
+    offset=-3101.2677585939614
+    type=ItemShop
+}
+"88" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="forestry:logs.5"
+        UnsafeDamage=3
+    }
+    k=0.002
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=351.0
+        Y=101.0
+        Z=57.0
+    }
+    max=1000.0
+    min=10.0
+    name=Log
+    offset=-3101.2677585939614
+    type=ItemShop
+}
+"89" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="minecraft:nether_star"
+        UnsafeDamage=0
+    }
+    k=0.05
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=347.0
+        Y=101.0
+        Z=37.0
+    }
+    max=45000.0
+    min=17000.0
+    name="nether_star"
+    offset=-514.9856596826053
+    type=ItemShop
+}
+"90" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="minecraft:stone"
+        UnsafeDamage=0
+    }
+    k=0.05
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=358.0
+        Y=101.0
+        Z=50.0
+    }
+    max=30.0
+    min=8.0
+    name=stone
+    offset=-218.0
+    type=ItemShop
+}
+"91" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="forestry:logs.2"
+        UnsafeDamage=2
+    }
+    k=0.002
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=356.0
+        Y=101.0
+        Z=26.0
+    }
+    max=1000.0
+    min=10.0
+    name=Log
+    offset=-3101.2677585939614
+    type=ItemShop
+}
+"92" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="minecraft:beacon"
+        UnsafeDamage=0
+    }
+    k=0.05
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=378.0
+        Y=101.0
+        Z=49.0
+    }
+    max=45000.0
+    min=17000.0
+    name=beacon
+    offset=-26.985659682605217
+    type=ItemShop
+}
+"93" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="botania:livingwood"
+        UnsafeDamage=5
+    }
+    k=0.002
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=385.0
+        Y=101.0
+        Z=51.0
+    }
+    max=1000.0
+    min=300.0
+    name=Log
+    offset=-2723.086561046207
+    type=ItemShop
+}
+"94" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="minecraft:dirt"
+        UnsafeDamage=1
+    }
+    k=0.05
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=362.0
+        Y=101.0
+        Z=53.0
+    }
+    max=12.0
+    min=7.0
+    name="coarse_dirt"
+    offset=0.0
+    type=ItemShop
+}
+"95" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="minecraft:mycelium"
+        UnsafeDamage=0
+    }
+    k=0.05
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=372.0
+        Y=101.0
+        Z=53.0
+    }
+    max=600.0
+    min=100.0
+    name=mycelium
+    offset=10.109302162163283
+    type=ItemShop
+}
+"96" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="forestry:logs.5"
+        UnsafeDamage=2
+    }
+    k=0.002
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=351.0
+        Y=101.0
+        Z=55.0
+    }
+    max=1000.0
+    min=10.0
+    name=Log
+    offset=-3101.2677585939614
+    type=ItemShop
+}
+"97" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="forestry:logs.3"
+        UnsafeDamage=1
+    }
+    k=0.002
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=351.0
+        Y=101.0
+        Z=31.0
+    }
+    max=1000.0
+    min=10.0
+    name=Log
+    offset=-3101.2677585939614
+    type=ItemShop
+}
+"98" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="minecraft:ender_chest"
+        UnsafeDamage=0
+    }
+    k=0.05
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=378.0
+        Y=101.0
+        Z=48.0
+    }
+    max=1200.0
+    min=400.0
+    name=echest
+    offset=-33.0
+    type=ItemShop
+}
+"99" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="forestry:can"
+        UnsafeDamage=1
+        UnsafeData {
+            Fluid {
+                Amount=1000
+                FluidName=lava
+            }
+        }
+    }
+    k=0.05
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=358.0
+        Y=101.0
+        Z=38.0
+    }
+    max=60.0
+    min=20.0
+    name=lava
+    offset=23.0
+    type=ItemShop
+}
+"100" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="botania:livingwood"
+        UnsafeDamage=0
+    }
+    k=0.002
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=385.0
+        Y=101.0
+        Z=47.0
+    }
+    max=1000.0
+    min=200.0
+    name=Log
+    offset=-2995.4807084449317
+    type=ItemShop
+}
+"101" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="galacticraftcore:basic_item"
+        UnsafeDamage=2
+    }
+    k=0.05
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=360.0
+        Y=101.0
+        Z=30.0
+    }
+    max=700.0
+    min=45.0
+    name=silicon
+    offset=-1.0683595050301449
+    type=ItemShop
+}
+"102" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="minecraft:ender_pearl"
+        UnsafeDamage=0
+    }
+    k=0.05
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=378.0
+        Y=101.0
+        Z=38.0
+    }
+    max=300.0
+    min=60.0
+    name=enderpearl
+    offset=559.0277542266379
+    type=ItemShop
+}
+"103" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="minecraft:sand"
+        UnsafeDamage=0
+    }
+    k=0.05
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=360.0
+        Y=101.0
+        Z=53.0
+    }
+    max=12.0
+    min=7.0
+    name=sand
+    offset=-1383.0
+    type=ItemShop
+}
+"104" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="minecraft:clay"
+        UnsafeDamage=0
+    }
+    k=0.05
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=375.0
+        Y=101.0
+        Z=53.0
+    }
+    max=180.0
+    min=50.0
+    name="clay_block"
+    offset=613.4000725849147
+    type=ItemShop
+}
+"105" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="minecraft:dragon_egg"
+        UnsafeDamage=0
+    }
+    k=0.002
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=377.0
+        Y=100.0
+        Z=50.0
+    }
+    max=70000.0
+    min=50000.0
+    name="dragon_egg"
+    offset=8.0
+    type=ItemShop
+}
+"106" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="galacticraftplanets:schematic"
+        UnsafeDamage=1
+    }
+    k=0.0
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=380.0
+        Y=101.0
+        Z=22.0
+    }
+    max=10000.0
+    min=10000.0
+    name="Cargo_Rkt_schm"
+    offset=1.0
+    type=ItemShop
+}
+"107" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="forestry:logs.1"
+        UnsafeDamage=3
+    }
+    k=0.002
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=362.0
+        Y=101.0
+        Z=26.0
+    }
+    max=1000.0
+    min=10.0
+    name=Log
+    offset=-3101.2677585939614
+    type=ItemShop
+}
+"108" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="minecraft:stone"
+        UnsafeDamage=1
+    }
+    k=0.05
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=358.0
+        Y=101.0
+        Z=47.0
+    }
+    max=30.0
+    min=8.0
+    name=granite
+    offset=-7334.0
+    type=ItemShop
+}
+"109" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="actuallyadditions:item_misc"
+        UnsafeDamage=5
+    }
+    k=0.05
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=355.0
+        Y=101.0
+        Z=33.0
+    }
+    max=800.0
+    min=90.0
+    name="black_quartz"
+    offset=-3163.4179083301597
+    type=ItemShop
+}
+"110" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="forestry:apatite"
+        UnsafeDamage=0
+    }
+    k=0.05
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=355.0
+        Y=101.0
+        Z=39.0
+    }
+    max=800.0
+    min=200.0
+    name=apatite
+    offset=-14062.972245773362
+    type=ItemShop
+}
+"111" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="minecraft:hay_block"
+        UnsafeDamage=0
+    }
+    k=0.05
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=374.0
+        Y=101.0
+        Z=33.0
+    }
+    max=120.0
+    min=50.0
+    name=HayBale
+    offset=-77.83518938456109
+    type=ItemShop
+}
+"112" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="galacticraftcore:basic_item"
+        UnsafeDamage=4
+    }
+    k=0.05
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=355.0
+        Y=101.0
+        Z=35.0
+    }
+    max=700.0
+    min=50.0
+    name=tin
+    offset=-42672.37751649736
+    type=ItemShop
+}
+"113" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="forestry:logs.3"
+        UnsafeDamage=0
+    }
+    k=0.002
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=351.0
+        Y=101.0
+        Z=29.0
+    }
+    max=1000.0
+    min=10.0
+    name=Log
+    offset=-3101.2677585939614
+    type=ItemShop
+}
+"114" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="minecraft:stone"
+        UnsafeDamage=3
+    }
+    k=0.05
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=358.0
+        Y=101.0
+        Z=48.0
+    }
+    max=30.0
+    min=8.0
+    name=diorite
+    offset=-983.0
+    type=ItemShop
+}
+"115" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="minecraft:brick_block"
+        UnsafeDamage=0
+    }
+    k=0.05
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=374.0
+        Y=101.0
+        Z=53.0
+    }
+    max=180.0
+    min=50.0
+    name=bricks
+    offset=9.400072584914714
+    type=ItemShop
+}
+"116" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="extrautils2:ironwood_log"
+        UnsafeDamage=0
+    }
+    k=0.002
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=380.0
+        Y=101.0
+        Z=60.0
+    }
+    max=1000.0
+    min=10.0
+    name=Log
+    offset=-3101.2677585939614
+    type=ItemShop
+}
+"117" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="galacticraftcore:schematic"
+        UnsafeDamage=0
+    }
+    k=0.0
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=372.0
+        Y=101.0
+        Z=22.0
+    }
+    max=10000.0
+    min=10000.0
+    name="T2_rocket_schematic"
+    offset=4.0
+    type=ItemShop
+}
+"118" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="botania:dreamwood"
+        UnsafeDamage=5
+    }
+    k=0.002
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=385.0
+        Y=101.0
+        Z=53.0
+    }
+    max=1000.0
+    min=350.0
+    name=Log
+    offset=-2609.405114858272
+    type=ItemShop
+}
+"119" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="thermalfoundation:material"
+        UnsafeDamage=134
+    }
+    k=0.05
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=381.0
+        Y=101.0
+        Z=31.0
+    }
+    max=2000.0
+    min=500.0
+    name=platinum
+    offset=10.055508453275621
+    type=ItemShop
+}
+"120" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="minecraft:sea_lantern"
+        UnsafeDamage=0
+    }
+    k=0.05
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=378.0
+        Y=101.0
+        Z=37.0
+    }
+    max=400.0
+    min=120.0
+    name="sea_lantern"
+    offset=0.0
+    type=ItemShop
+}
+"121" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="minecraft:soul_sand"
+        UnsafeDamage=0
+    }
+    k=0.05
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=363.0
+        Y=101.0
+        Z=33.0
+    }
+    max=30.0
+    min=12.0
+    name=soulsand
+    offset=-498.0
+    type=ItemShop
+}
+"122" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="minecraft:sand"
+        UnsafeDamage=1
+    }
+    k=0.05
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=358.0
+        Y=101.0
+        Z=36.0
+    }
+    max=7.0
+    min=5.0
+    name=redsand
+    offset=64.0
+    type=ItemShop
+}
+"123" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="forestry:logs.5"
+        UnsafeDamage=0
+    }
+    k=0.002
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=351.0
+        Y=101.0
+        Z=51.0
+    }
+    max=1000.0
+    min=10.0
+    name=Log
+    offset=-3100.2677585939614
+    type=ItemShop
+}
+"124" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="forestry:ingot_copper"
+        UnsafeDamage=0
+    }
+    k=0.05
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=355.0
+        Y=101.0
+        Z=37.0
+    }
+    max=700.0
+    min=50.0
+    name=copper
+    offset=-1483.377516497364
+    type=ItemShop
+}
+"125" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="minecraft:stone"
+        UnsafeDamage=5
+    }
+    k=0.05
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=358.0
+        Y=101.0
+        Z=49.0
+    }
+    max=30.0
+    min=6.0
+    name=andesite
+    offset=-1532.0
+    type=ItemShop
+}
+"126" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="minecraft:emerald"
+        UnsafeDamage=0
+    }
+    k=0.05
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=355.0
+        Y=101.0
+        Z=47.0
+    }
+    max=900.0
+    min=300.0
+    name=emerald
+    offset=131.0277542266378
+    type=ItemShop
+}
+"127" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="minecraft:cobblestone"
+        UnsafeDamage=0
+    }
+    k=0.05
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=358.0
+        Y=101.0
+        Z=51.0
+    }
+    max=25.0
+    min=6.0
+    name=cobblestone
+    offset=-136091.0
+    type=ItemShop
+}
+"128" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="minecraft:gravel"
+        UnsafeDamage=0
+    }
+    k=0.05
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=358.0
+        Y=101.0
+        Z=39.0
+    }
+    max=30.0
+    min=12.0
+    name=gravel
+    offset=308.9447406300926
+    type=ItemShop
+}
+"129" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="galacticraftcore:item_basic_moon"
+        UnsafeDamage=0
+    }
+    k=0.05
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=355.0
+        Y=101.0
+        Z=51.0
+    }
+    max=1200.0
+    min=300.0
+    name="meteoric_iron"
+    offset=289.4111691664033
+    type=ItemShop
+}
+"130" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="forestry:logs.4"
+        UnsafeDamage=2
+    }
+    k=0.002
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=351.0
+        Y=101.0
+        Z=47.0
+    }
+    max=1000.0
+    min=10.0
+    name=Log
+    offset=-3095.2677585939614
+    type=ItemShop
+}
+"131" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="bigreactors:mineralanglesite"
+        UnsafeDamage=0
+    }
+    k=0.05
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=381.0
+        Y=101.0
+        Z=49.0
+    }
+    max=2500.0
+    min=500.0
+    name=anglesite
+    offset=-25.72588722239781
+    type=ItemShop
+}
+"132" {
+    canBuy=true
+    canSell=true
+    items {
+        ContentVersion=2
+        Count=1
+        ItemType="minecraft:end_stone"
+        UnsafeDamage=0
+    }
+    k=0.05
+    location {
+        BlockType="minecraft:wall_sign"
+        ContentVersion=1
+        WorldName=PlayerShops
+        WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+        X=378.0
+        Y=101.0
+        Z=39.0
+    }
+    max=200.0
+    min=40.0
+    name=endstone
+    offset=-11605.972245773362
+    type=ItemShop
+}

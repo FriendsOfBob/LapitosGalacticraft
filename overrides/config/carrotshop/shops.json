@@ -1,0 +1,724 @@
+globalconfig {
+    currency="totaleconomy:dollar"
+}
+notifications {
+    soldthings=[
+        "595fdfef-bf71-4d7d-8267-644013c30809",
+        cf52742c-fc78-4cb0-9f22-3c0aeeb75808,
+        "6412069a-11dd-469c-a426-9268298f897b",
+        "5ed1d550-671e-4d8a-8cf0-c3b4e9171cc2",
+        aa21c0a4-8499-4fe9-958e-80acd635ac14,
+        "168d0819-2709-4c94-bfda-ab33d174f4fd",
+        "1e4b2cec-1f0a-4ba6-9e85-361ffe40f1c8",
+        b409cd4c-d055-438d-846e-a032994a61c7,
+        b08142d1-b035-43cd-95ac-17ffec29ae3c,
+        "237f9a84-26c7-4555-8072-6854420dea4d"
+    ]
+}
+shops=[
+    {
+        shop {
+            itemsTemplate {
+                nbtitems=[
+                    "CgAAAwAOQ29udGVudFZlcnNpb24AAAABCAAISXRlbVR5cGUAGm1pbmVjcmFmdDp0b3RlbV9vZl91bmR5aW5nAwAMVW5zYWZlRGFtYWdlAAAAAAMABUNvdW50AAAAAQoAClVuc2FmZURhdGEKAAlGb3JnZUNhcHMAAAA="
+                ]
+            }
+            location {
+                BlockType="minecraft:wall_sign"
+                ContentVersion=1
+                WorldName=PlayerShops
+                WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+                X=380.0
+                Y=118.0
+                Z=3.0
+            }
+            owner=cf52742c-fc78-4cb0-9f22-3c0aeeb75808
+            price=300000
+            sellerChest {
+                BlockType="minecraft:chest"
+                ContentVersion=1
+                WorldName=PlayerShops
+                WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+                X=394.0
+                Y=115.0
+                Z=2.0
+            }
+        }
+        type="com.carrot.carrotshop.shop.Buy"
+    },
+    {
+        shop {
+            location {
+                BlockType="minecraft:wall_sign"
+                ContentVersion=1
+                WorldName=world
+                WorldUuid=feb32e8f-1abb-4a47-a744-72115b54b659
+                X=1105.0
+                Y=25.0
+                Z=-4330.0
+            }
+        }
+        type="com.carrot.carrotshop.shop.Bank"
+    },
+    {
+        shop {
+            itemsTemplate {
+                nbtitems=[
+                    "CgAAAwAOQ29udGVudFZlcnNpb24AAAABCAAISXRlbVR5cGUADW9tcGQ6aGFyZGVuZWQDAAxVbnNhZmVEYW1hZ2UAAAAEAwAFQ291bnQAAAABCgAKVW5zYWZlRGF0YQoACUZvcmdlQ2FwcwAAAA=="
+                ]
+            }
+            location {
+                BlockType="minecraft:wall_sign"
+                ContentVersion=1
+                WorldName=PlayerShops
+                WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+                X=390.0
+                Y=109.0
+                Z=1.0
+            }
+            owner=cf52742c-fc78-4cb0-9f22-3c0aeeb75808
+            price=1000
+            sellerChest {
+                BlockType="minecraft:chest"
+                ContentVersion=1
+                WorldName=PlayerShops
+                WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+                X=391.0
+                Y=115.0
+                Z=0.0
+            }
+        }
+        type="com.carrot.carrotshop.shop.Buy"
+    },
+    {
+        shop {
+            itemsTemplate {
+                nbtitems=[
+                    "CgAAAwAOQ29udGVudFZlcnNpb24AAAABCAAISXRlbVR5cGUAIWlyb25jaGVzdDppcm9uX3NodWxrZXJfYm94X3B1cnBsZQMADFVuc2FmZURhbWFnZQAAAAADAAVDb3VudAAAAAEKAApVbnNhZmVEYXRhAwAKUmVwYWlyQ29zdAAAAAAKAA5CbG9ja0VudGl0eVRhZwEABmZhY2luZwEJAAVJdGVtcwoAAAAHAQAEU2xvdAwKAAlGb3JnZUNhcHMKABtjdXN0b21ucGNzOml0ZW1zY3JpcHRlZGRhdGEAAAgAAmlkAA1jb25hcm06aGVsbWV0AQAFQ291bnQBCgADdGFnCgANU3RhdHNPcmlnaW5hbAUACVRvdWdobmVzc0CgAAADAA1GcmVlTW9kaWZpZXJzAAAAAwMACkR1cmFiaWxpdHkAAAEPBQAHRGVmZW5zZUGQAAAACgAFU3RhdHMFAAlUb3VnaG5lc3NAoAAAAwANRnJlZU1vZGlmaWVycwAAAAMDAApEdXJhYmlsaXR5AAABDwUAB0RlZmVuc2VBkAAAAAoAClRpbmtlckRhdGEJAAlNYXRlcmlhbHMIAAAAAwALaGFyZF9jYXJib24ABWludmFyAAZjYWN0dXMJAAlNb2RpZmllcnMIAAAAAQAObGV2ZWxpbmdfYXJtb3IACQAJTW9kaWZpZXJzCgAAAAYIAAppZGVudGlmaWVyABFsaWdodHdlaWdodF9hcm1vcgMABWNvbG9y/xlZcAMABWxldmVsAAAAAQAIAAppZGVudGlmaWVyAA5wcmlkZWZ1bF9hcm1vcgMABWNvbG9y/xlZcAMABWxldmVsAAAAAQAIAAppZGVudGlmaWVyAA9pbnZhcmlhbnRfYXJtb3IDAAVjb2xvcv/W1tYDAAVsZXZlbAAAAAEACAAKaWRlbnRpZmllcgAObWFnbmV0aWNfYXJtb3IDAAVjb2xvcv/W1tYDAAVsZXZlbAAAAAEBAA9tYWduZXRpYzFfYXJtb3IBAAgACmlkZW50aWZpZXIAC3NwaW55X2FybW9yAwAFY29sb3L/AKEPAwAFbGV2ZWwAAAABAAgACmlkZW50aWZpZXIADmxldmVsaW5nX2FybW9yAwAFY29sb3IA////AwAFbGV2ZWwAAAABAwACeHAAAABFAwAPYm9udXNfbW9kaWZpZXJzAAAAAAAJAAZUcmFpdHMIAAAABgARbGlnaHR3ZWlnaHRfYXJtb3IADnByaWRlZnVsX2FybW9yAA9pbnZhcmlhbnRfYXJtb3IAD21hZ25ldGljMV9hcm1vcgALc3BpbnlfYXJtb3IADmxldmVsaW5nX2FybW9yAAIABkRhbWFnZQClAAEABFNsb3QNCgAJRm9yZ2VDYXBzCgAbY3VzdG9tbnBjczppdGVtc2NyaXB0ZWRkYXRhAAAIAAJpZAASdGNvbnN0cnVjdDpjbGVhdmVyAQAFQ291bnQBCgADdGFnCgANU3RhdHNPcmlnaW5hbAUAFUF0dGFja1NwZWVkTXVsdGlwbGllcj+AAAAFAAtNaW5pbmdTcGVlZEDwAAADAA1GcmVlTW9kaWZpZXJzAAAAAwMACkR1cmFiaWxpdHkAACEgAwAMSGFydmVzdExldmVsAAAABQUABkF0dGFja0GKZmYACgAHZGlzcGxheQgABE5hbWUAHXN0b3JtcyBtYXNzIG1hZGUgdGlua2VycyBzaGl0AAoABVN0YXRzBQAVQXR0YWNrU3BlZWRNdWx0aXBsaWVyP4AAAAUAC01pbmluZ1NwZWVkQPAAAAMADUZyZWVNb2RpZmllcnMAAAADAwAKRHVyYWJpbGl0eQAAISADAAxIYXJ2ZXN0TGV2ZWwAAAAFBQAGQXR0YWNrQYpmZgAKAAdTcGVjaWFsCQAKQ2F0ZWdvcmllcwgAAAACAAZ3ZWFwb24ABHRvb2wACgAKVGlua2VyRGF0YQkACU1hdGVyaWFscwgAAAAEAAlvc2dsb2dsYXMACW9zZ2xvZ2xhcwAJb3NnbG9nbGFzAA5sdW1pdW1fcGx1c3RpYwkACU1vZGlmaWVycwgAAAACABFiZWhlYWRpbmdfY2xlYXZlcgAMdG9vbGxldmVsaW5nAAkACU1vZGlmaWVycwoAAAAHCAAKaWRlbnRpZmllcgAKYnJvd25tYWdpYwMABWNvbG9y/3L/aAMABWxldmVsAAAAAQAIAAppZGVudGlmaWVyAAVzYXNzeQMABWNvbG9y/3L/aAMABWxldmVsAAAAAQAIAAppZGVudGlmaWVyAAZnbG9iYWwDAAVjb2xvcv9y/2gDAAVsZXZlbAAAAAEACAAKaWRlbnRpZmllcgAKaWxsdW1pbmF0aQMABWNvbG9y////VQMABWxldmVsAAAAAQAIAAppZGVudGlmaWVyAAdnbG93aW5nAwAFY29sb3L///9VAwAFbGV2ZWwAAAABAAgACmlkZW50aWZpZXIAEWJlaGVhZGluZ19jbGVhdmVyAwAFY29sb3IAEFdLAwAFbGV2ZWwAAAACAAgACmlkZW50aWZpZXIADHRvb2xsZXZlbGluZwMABWNvbG9yAP///wMABWxldmVsAAAAAQAJAAZUcmFpdHMIAAAABgAKYnJvd25tYWdpYwAFc2Fzc3kABmdsb2JhbAAKaWxsdW1pbmF0aQAHZ2xvd2luZwAMdG9vbGxldmVsaW5nAAIABkRhbWFnZQAAAAEABFNsb3QVCgAJRm9yZ2VDYXBzCgAbY3VzdG9tbnBjczppdGVtc2NyaXB0ZWRkYXRhAAAIAAJpZAARY29uYXJtOmNoZXN0cGxhdGUBAAVDb3VudAEKAAN0YWcKAA1TdGF0c09yaWdpbmFsBQAJVG91Z2huZXNzQCzMzQMADUZyZWVNb2RpZmllcnMAAAADAwAKRHVyYWJpbGl0eQAAAdYFAAdEZWZlbnNlQaAAAAAKAAdkaXNwbGF5CAAETmFtZQAfc3Rvcm0gbWFkZSBnb2Qgd2FudCB0byBiZSBhcm1vcgAKAAVTdGF0cwUACVRvdWdobmVzc0CWZmYDAA1GcmVlTW9kaWZpZXJzAAAAAwMACkR1cmFiaWxpdHkAAAJsBQAHRGVmZW5zZUHAAAAACgAKVGlua2VyRGF0YQMADVVzZWRNb2RpZmllcnMAAAAECQAJTWF0ZXJpYWxzCAAAAAMACW1hbnl1bGx5bgANYm9yb25fbml0cmlkZQALa25pZ2h0c2xpbWUJAAlNb2RpZmllcnMIAAAABAAObGV2ZWxpbmdfYXJtb3IADWRpYW1vbmRfYXJtb3IAD3Jlc2lzdGFudF9hcm1vcgAQcmVpbmZvcmNlZF9hcm1vcgAJAAlNb2RpZmllcnMKAAAABwgACmlkZW50aWZpZXIADnZlbmdlZnVsX2FybW9yAwAFY29sb3L/oVz4AwAFbGV2ZWwAAAABAAgACmlkZW50aWZpZXIAC3NwaW55X2FybW9yAwAFY29sb3LOdbJpAwAFbGV2ZWwAAAABAAgACmlkZW50aWZpZXIAEmludmlnb3JhdGluZ19hcm1vcgMABWNvbG9y//GP8AMABWxldmVsAAAAAQAIAAppZGVudGlmaWVyAA5sZXZlbGluZ19hcm1vcgMABWNvbG9yAP///wMABWxldmVsAAAABQMAAnhwAAAAOwMAD2JvbnVzX21vZGlmaWVycwAAAAQACAAKaWRlbnRpZmllcgANZGlhbW9uZF9hcm1vcgMABWNvbG9yAIz04gAIAAppZGVudGlmaWVyAA9yZXNpc3RhbnRfYXJtb3IDAAVjb2xvcgD/9vYDAAVsZXZlbAAAAAIBAAxtb2RpZmllclVzZWQBAAgACmlkZW50aWZpZXIAEHJlaW5mb3JjZWRfYXJtb3IDAAVjb2xvcgBQLoMDAAVsZXZlbAAAAAIACQAGVHJhaXRzCAAAAAYADnZlbmdlZnVsX2FybW9yAAtzcGlueV9hcm1vcgASaW52aWdvcmF0aW5nX2FybW9yAA5sZXZlbGluZ19hcm1vcgAPcmVzaXN0YW50X2FybW9yABByZWluZm9yY2VkX2FybW9yAAIABkRhbWFnZQAAAAEABFNsb3QdCgAJRm9yZ2VDYXBzCgAbY3VzdG9tbnBjczppdGVtc2NyaXB0ZWRkYXRhAAAIAAJpZAAUdGNvbnN0cnVjdDpleGNhdmF0b3IBAAVDb3VudAEKAAN0YWcBAA1FbmNoYW50RWZmZWN0AQoADVN0YXRzT3JpZ2luYWwFABVBdHRhY2tTcGVlZE11bHRpcGxpZXI/gAAABQALTWluaW5nU3BlZWRBGCj2AwANRnJlZU1vZGlmaWVycwAAAAMDAApEdXJhYmlsaXR5AAAE+wMADEhhcnZlc3RMZXZlbAAAAAQFAAZBdHRhY2tAu4UfAAoAB2Rpc3BsYXkIAAROYW1lABxzdG9ybSBtYXNzIG1hZGUgdGlua2VycyBzaGl0AAoABVN0YXRzBQAVQXR0YWNrU3BlZWRNdWx0aXBsaWVyP4AAAAUAC01pbmluZ1NwZWVkQRgo9gMADUZyZWVNb2RpZmllcnMAAAADAwAKRHVyYWJpbGl0eQAABPsDAAxIYXJ2ZXN0TGV2ZWwAAAAEBQAGQXR0YWNrQLuFHwAKAAdTcGVjaWFsCQAKQ2F0ZWdvcmllcwgAAAADAAR0b29sAANhb2UAB2hhcnZlc3QACgAKVGlua2VyRGF0YQkACU1hdGVyaWFscwgAAAAEAAhlbGVjdHJ1bQAJbWFueXVsbHluAAhlbGVjdHJ1bQAIZWxlY3RydW0JAAlNb2RpZmllcnMIAAAAAQAMdG9vbGxldmVsaW5nAAkACU1vZGlmaWVycwoAAAADCAAKaWRlbnRpZmllcgAIc2hvY2tpbmcFAAZjaGFyZ2VCyT7cAwAFY29sb3L/6NtJAwAFbGV2ZWwAAAABBgABeMCjtSm1+B6lBgABeUBgDW+XbCw9BgABekCq/SVDSkkBAAgACmlkZW50aWZpZXIACmluc2F0aWFibGUDAAVjb2xvcv+hXPgDAAVsZXZlbAAAAAEACAAKaWRlbnRpZmllcgAMdG9vbGxldmVsaW5nAwAFY29sb3IA////AwAFbGV2ZWwAAAABAwACeHAAAADJAwAPYm9udXNfbW9kaWZpZXJzAAAAAAAJAAZUcmFpdHMIAAAAAwAIc2hvY2tpbmcACmluc2F0aWFibGUADHRvb2xsZXZlbGluZwACAAZEYW1hZ2UAyQABAARTbG90HgoACUZvcmdlQ2FwcwoAG2N1c3RvbW5wY3M6aXRlbXNjcmlwdGVkZGF0YQAACAACaWQAD2NvbmFybTpsZWdnaW5ncwEABUNvdW50AQoAA3RhZwoADVN0YXRzT3JpZ2luYWwFAAlUb3VnaG5lc3NALMzNAwANRnJlZU1vZGlmaWVycwAAAAMDAApEdXJhYmlsaXR5AAABugUAB0RlZmVuc2VBoAAAAAoAB2Rpc3BsYXkIAAROYW1lAB9zdG9ybSBtYWRlIGdvZCB3YW50IHRvIGJlIGFybW9yAAoABVN0YXRzBQAJVG91Z2huZXNzQJZmZgMADUZyZWVNb2RpZmllcnMAAAAEAwAKRHVyYWJpbGl0eQAAAlAFAAdEZWZlbnNlQcAAAAAKAApUaW5rZXJEYXRhAwANVXNlZE1vZGlmaWVycwAAAAMJAAlNYXRlcmlhbHMIAAAAAwAJbWFueXVsbHluAA1ib3Jvbl9uaXRyaWRlAAtrbmlnaHRzbGltZQkACU1vZGlmaWVycwgAAAAEAA5sZXZlbGluZ19hcm1vcgANZGlhbW9uZF9hcm1vcgAPcmVzaXN0YW50X2FybW9yABByZWluZm9yY2VkX2FybW9yAAkACU1vZGlmaWVycwoAAAAHCAAKaWRlbnRpZmllcgAOdmVuZ2VmdWxfYXJtb3IDAAVjb2xvcv+hXPgDAAVsZXZlbAAAAAEACAAKaWRlbnRpZmllcgALc3BpbnlfYXJtb3IDAAVjb2xvcs51smkDAAVsZXZlbAAAAAEACAAKaWRlbnRpZmllcgASaW52aWdvcmF0aW5nX2FybW9yAwAFY29sb3L/8Y/wAwAFbGV2ZWwAAAABAAgACmlkZW50aWZpZXIADmxldmVsaW5nX2FybW9yAwAFY29sb3IA////AwAFbGV2ZWwAAAAFAwACeHAAAAA7AwAPYm9udXNfbW9kaWZpZXJzAAAABAAIAAppZGVudGlmaWVyAA1kaWFtb25kX2FybW9yAwAFY29sb3IAjPTiAAgACmlkZW50aWZpZXIAD3Jlc2lzdGFudF9hcm1vcgMABWNvbG9yAP/29gMABWxldmVsAAAAAQEADG1vZGlmaWVyVXNlZAEACAAKaWRlbnRpZmllcgAQcmVpbmZvcmNlZF9hcm1vcgMABWNvbG9yAFAugwMABWxldmVsAAAAAQAJAAZUcmFpdHMIAAAABgAOdmVuZ2VmdWxfYXJtb3IAC3NwaW55X2FybW9yABJpbnZpZ29yYXRpbmdfYXJtb3IADmxldmVsaW5nX2FybW9yAA9yZXNpc3RhbnRfYXJtb3IAEHJlaW5mb3JjZWRfYXJtb3IAAgAGRGFtYWdlAAAAAQAEU2xvdB8KAAlGb3JnZUNhcHMKABtjdXN0b21ucGNzOml0ZW1zY3JpcHRlZGRhdGEAAAgAAmlkABR0Y29uc3RydWN0Omx1bWJlcmF4ZQEABUNvdW50AQoAA3RhZwoADVN0YXRzT3JpZ2luYWwFABVBdHRhY2tTcGVlZE11bHRpcGxpZXI/gAAABQALTWluaW5nU3BlZWRBGI9cAwANRnJlZU1vZGlmaWVycwAAAAMDAApEdXJhYmlsaXR5AAAGHgMADEhhcnZlc3RMZXZlbAAAAAQFAAZBdHRhY2tAxMzMAAoAB2Rpc3BsYXkIAAROYW1lABxzdG9ybSBtYXNzIG1hZGUgdGlua2VycyBzaGl0AAoABVN0YXRzBQAVQXR0YWNrU3BlZWRNdWx0aXBsaWVyP4zMzQUAC01pbmluZ1NwZWVkQYbArwMADUZyZWVNb2RpZmllcnMAAAABAwAKRHVyYWJpbGl0eQAABh4DAAxIYXJ2ZXN0TGV2ZWwAAAAEBQAGQXR0YWNrQMTMzAAKAAdTcGVjaWFsCQAKQ2F0ZWdvcmllcwgAAAADAAdoYXJ2ZXN0AAR0b29sAANhb2UACgAKVGlua2VyRGF0YQMADVVzZWRNb2RpZmllcnMAAAACCQAJTWF0ZXJpYWxzCAAAAAQABmNvYmFsdAAGY29iYWx0AAhvYnNpZGlhbgAGY29iYWx0CQAJTW9kaWZpZXJzCAAAAAIADHRvb2xsZXZlbGluZwAFaGFzdGUACQAJTW9kaWZpZXJzCgAAAAUIAAppZGVudGlmaWVyAAtsaWdodHdlaWdodAMABWNvbG9y/yiC1AMABWxldmVsAAAAAQAIAAppZGVudGlmaWVyAAhtb21lbnR1bQMABWNvbG9y/yiC1AMABWxldmVsAAAAAQAIAAppZGVudGlmaWVyAAdkdXJpdG9zAwAFY29sb3L/YBzEAwAFbGV2ZWwAAAABAAgACmlkZW50aWZpZXIADHRvb2xsZXZlbGluZwMABWNvbG9yAP///wMABWxldmVsAAAAAQMAAnhwAAAHZAMAD2JvbnVzX21vZGlmaWVycwAAAAAACAAKaWRlbnRpZmllcgAFaGFzdGUDAAdjdXJyZW50AAAAQAMABWNvbG9yAJEAAAMABWxldmVsAAAAAgMAA21heAAAAGQIAAlleHRyYUluZm8ACDYzIC8gMTAwAAkABlRyYWl0cwgAAAAEAAtsaWdodHdlaWdodAAIbW9tZW50dW0AB2R1cml0b3MADHRvb2xsZXZlbGluZwACAAZEYW1hZ2UE4QABAARTbG90JwoACUZvcmdlQ2FwcwoAG2N1c3RvbW5wY3M6aXRlbXNjcmlwdGVkZGF0YQAACAACaWQADGNvbmFybTpib290cwEABUNvdW50AQoAA3RhZwoADVN0YXRzT3JpZ2luYWwFAAlUb3VnaG5lc3NALMzNAwANRnJlZU1vZGlmaWVycwAAAAMDAApEdXJhYmlsaXR5AAABfwUAB0RlZmVuc2VBoAAAAAoAB2Rpc3BsYXkIAAROYW1lAB9zdG9ybSBtYWRlIGdvZCB3YW50IHRvIGJlIGFybW9yAAoABVN0YXRzBQAJVG91Z2huZXNzQJZmZgMADUZyZWVNb2RpZmllcnMAAAAEAwAKRHVyYWJpbGl0eQAAAhUFAAdEZWZlbnNlQcAAAAAKAApUaW5rZXJEYXRhAwANVXNlZE1vZGlmaWVycwAAAAMJAAlNYXRlcmlhbHMIAAAAAwAJbWFueXVsbHluAA1ib3Jvbl9uaXRyaWRlAAtrbmlnaHRzbGltZQkACU1vZGlmaWVycwgAAAAEAA5sZXZlbGluZ19hcm1vcgANZGlhbW9uZF9hcm1vcgAPcmVzaXN0YW50X2FybW9yABByZWluZm9yY2VkX2FybW9yAAkACU1vZGlmaWVycwoAAAAHCAAKaWRlbnRpZmllcgAOdmVuZ2VmdWxfYXJtb3IDAAVjb2xvcv+hXPgDAAVsZXZlbAAAAAEACAAKaWRlbnRpZmllcgALc3BpbnlfYXJtb3IDAAVjb2xvcs51smkDAAVsZXZlbAAAAAEACAAKaWRlbnRpZmllcgASaW52aWdvcmF0aW5nX2FybW9yAwAFY29sb3L/8Y/wAwAFbGV2ZWwAAAABAAgACmlkZW50aWZpZXIADmxldmVsaW5nX2FybW9yAwAFY29sb3IA////AwAFbGV2ZWwAAAAFAwACeHAAAAA7AwAPYm9udXNfbW9kaWZpZXJzAAAABAAIAAppZGVudGlmaWVyAA1kaWFtb25kX2FybW9yAwAFY29sb3IAjPTiAAgACmlkZW50aWZpZXIAD3Jlc2lzdGFudF9hcm1vcgMABWNvbG9yAP/29gMABWxldmVsAAAAAQEADG1vZGlmaWVyVXNlZAEACAAKaWRlbnRpZmllcgAQcmVpbmZvcmNlZF9hcm1vcgMABWNvbG9yAFAugwMABWxldmVsAAAAAQAJAAZUcmFpdHMIAAAABgAOdmVuZ2VmdWxfYXJtb3IAC3NwaW55X2FybW9yABJpbnZpZ29yYXRpbmdfYXJtb3IADmxldmVsaW5nX2FybW9yAA9yZXNpc3RhbnRfYXJtb3IAEHJlaW5mb3JjZWRfYXJtb3IAAgAGRGFtYWdlAAAAAwAOU2h1bGtlckJveFNpemUAAAA2AAoAB2Rpc3BsYXkIAAROYW1lABx0aW5rZXJzIHN0YXJ0ZXIga2l0IGJ5IHN0b3JtAAoACUZvcmdlQ2FwcwAAAA=="
+                ]
+            }
+            location {
+                BlockType="minecraft:wall_sign"
+                ContentVersion=1
+                WorldName=PlayerShops
+                WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+                X=406.0
+                Y=110.0
+                Z=8.0
+            }
+            owner=cf52742c-fc78-4cb0-9f22-3c0aeeb75808
+            price=100000
+            sellerChest {
+                BlockType="minecraft:chest"
+                ContentVersion=1
+                WorldName=PlayerShops
+                WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+                X=391.0
+                Y=116.0
+                Z=0.0
+            }
+        }
+        type="com.carrot.carrotshop.shop.Buy"
+    },
+    {
+        shop {
+            itemsTemplate {
+                nbtitems=[
+                    CgAAAwAOQ29udGVudFZlcnNpb24AAAABCAAISXRlbVR5cGUAG2FjdHVhbGx5YWRkaXRpb25zOml0ZW1fZm9vZAMADFVuc2FmZURhbWFnZQAAABIDAAVDb3VudAAAAAEKAApVbnNhZmVEYXRhCgAJRm9yZ2VDYXBzAAAA
+                ]
+            }
+            location {
+                BlockType="minecraft:wall_sign"
+                ContentVersion=1
+                WorldName=PlayerShops
+                WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+                X=587.0
+                Y=65.0
+                Z=-1236.0
+            }
+            price=1
+        }
+        type="com.carrot.carrotshop.shop.iBuy"
+    },
+    {
+        shop {
+            itemsTemplate {
+                nbtitems=[
+                    "CgAAAwAOQ29udGVudFZlcnNpb24AAAABCAAISXRlbVR5cGUAE3NpbXBseXRlYTp0ZWFfc3RpY2sDAAxVbnNhZmVEYW1hZ2UAAAAAAwAFQ291bnQAAAABCgAKVW5zYWZlRGF0YQoACUZvcmdlQ2FwcwAAAA=="
+                ]
+            }
+            location {
+                BlockType="minecraft:wall_sign"
+                ContentVersion=1
+                WorldName=PlayerShops
+                WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+                X=370.0
+                Y=110.0
+                Z=77.0
+            }
+            price=10
+        }
+        type="com.carrot.carrotshop.shop.iBuy"
+    },
+    {
+        shop {
+            itemsTemplate {
+                nbtitems=[
+                    "CgAAAwAOQ29udGVudFZlcnNpb24AAAABCAAISXRlbVR5cGUAGHRoZXJtYWxleHBhbnNpb246c2F0Y2hlbAMADFVuc2FmZURhbWFnZQAAAAEDAAVDb3VudAAAAAEKAApVbnNhZmVEYXRhCgAJRm9yZ2VDYXBzAAEACkFjY2Vzc2libGUBAAA="
+                ]
+            }
+            location {
+                BlockType="minecraft:wall_sign"
+                ContentVersion=1
+                WorldName=PlayerShops
+                WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+                X=370.0
+                Y=110.0
+                Z=76.0
+            }
+            price=400
+        }
+        type="com.carrot.carrotshop.shop.iBuy"
+    },
+    {
+        shop {
+            itemsTemplate {
+                nbtitems=[
+                    "CgAAAwAOQ29udGVudFZlcnNpb24AAAABCAAISXRlbVR5cGUAFmhhcnZlc3RjcmFmdDpzdXNoaWl0ZW0DAAxVbnNhZmVEYW1hZ2UAAAAAAwAFQ291bnQAAAABCgAKVW5zYWZlRGF0YQoACUZvcmdlQ2FwcwAAAA=="
+                ]
+            }
+            location {
+                BlockType="minecraft:wall_sign"
+                ContentVersion=1
+                WorldName=PlayerShops
+                WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+                X=610.0
+                Y=66.0
+                Z=-1206.0
+            }
+            price=10
+        }
+        type="com.carrot.carrotshop.shop.iBuy"
+    },
+    {
+        shop {
+            itemsTemplate {
+                nbtitems=[
+                    "CgAAAwAOQ29udGVudFZlcnNpb24AAAABCAAISXRlbVR5cGUAEXRjb25zdHJ1Y3Q6cmFwaWVyAwAMVW5zYWZlRGFtYWdlAAAAAAMABUNvdW50AAAAAQoAClVuc2FmZURhdGEKAA1TdGF0c09yaWdpbmFsBQAVQXR0YWNrU3BlZWRNdWx0aXBsaWVyP4AAAAUAC01pbmluZ1NwZWVkPwAAAAMADUZyZWVNb2RpZmllcnMAAAADAwAKRHVyYWJpbGl0eQAAAFwDAAxIYXJ2ZXN0TGV2ZWwAAAABBQAGQXR0YWNrQTGZmgAKAAVTdGF0cwUAFUF0dGFja1NwZWVkTXVsdGlwbGllcj+AAAAFAAtNaW5pbmdTcGVlZD8AAAADAA1GcmVlTW9kaWZpZXJzAAAABQMACkR1cmFiaWxpdHkAAABcAwAMSGFydmVzdExldmVsAAAAAQUABkF0dGFja0FLnQEACgAHU3BlY2lhbAkACkNhdGVnb3JpZXMIAAAAAgAEdG9vbAAGd2VhcG9uAAoACUZvcmdlQ2FwcwAKAApUaW5rZXJEYXRhAwANVXNlZE1vZGlmaWVycwAAAAEJAAlNYXRlcmlhbHMIAAAAAwAPeHVfbWFnaWNhbF93b29kABB4dV9kZW1vbmljX21ldGFsAAd1cmFuaXVtCQAJTW9kaWZpZXJzCAAAAAIADHRvb2xsZXZlbGluZwAJc2hhcnBuZXNzAAkACU1vZGlmaWVycwoAAAAHCAAKaWRlbnRpZmllcgAQbWFnaWNhbF9tb2RpZmllcgMABWNvbG9y//3/qAMABWxldmVsAAAAAQEAEG1hZ2ljYWxfbW9kaWZpZXIBAAgACmlkZW50aWZpZXIAB2JyaXR0bGUDAAVjb2xvcv/9/6gDAAVsZXZlbAAAAAEACAAKaWRlbnRpZmllcgANeHVfd2hpc3BlcmluZwMABWNvbG9y/6M7AAMABWxldmVsAAAAAQAIAAppZGVudGlmaWVyAAlwb2lzb25vdXMDAAVjb2xvcv9AY0ADAAVsZXZlbAAAAAEACAAKaWRlbnRpZmllcgAJd2l0aGVyaW5nAwAFY29sb3L/QGNAAwAFbGV2ZWwAAAABAAgACmlkZW50aWZpZXIADHRvb2xsZXZlbGluZwMABWNvbG9yAP///wMABWxldmVsAAAAAQAIAAppZGVudGlmaWVyAAlzaGFycG5lc3MDAAdjdXJyZW50AAAASAMABWNvbG9yAP/29gMABWxldmVsAAAAAQMAA21heAAAAEgIAAlleHRyYUluZm8ABzcxIC8gNzIACQAGVHJhaXRzCAAAAAYAEG1hZ2ljYWxfbW9kaWZpZXIAB2JyaXR0bGUADXh1X3doaXNwZXJpbmcACXBvaXNvbm91cwAJd2l0aGVyaW5nAAx0b29sbGV2ZWxpbmcAAA=="
+                ]
+            }
+            location {
+                BlockType="minecraft:wall_sign"
+                ContentVersion=1
+                WorldName=PlayerShops
+                WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+                X=386.0
+                Y=109.0
+                Z=5.0
+            }
+            owner=cf52742c-fc78-4cb0-9f22-3c0aeeb75808
+            price=20000
+            sellerChest {
+                BlockType="minecraft:chest"
+                ContentVersion=1
+                WorldName=PlayerShops
+                WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+                X=388.0
+                Y=116.0
+                Z=0.0
+            }
+        }
+        type="com.carrot.carrotshop.shop.Buy"
+    },
+    {
+        shop {
+            itemsTemplate {
+                nbtitems=[
+                    "CgAAAwAOQ29udGVudFZlcnNpb24AAAABCAAISXRlbVR5cGUAFnBuZXVtYXRpY2NyYWZ0Om1pbmlndW4DAAxVbnNhZmVEYW1hZ2UAAAAzAwAFQ291bnQAAAABCgAKVW5zYWZlRGF0YQoAEFVwZ3JhZGVJbnZlbnRvcnkDAARTaXplAAAACQkABUl0ZW1zAAAAAAAAAwAMc291bmRDb3VudGVy/////woACUZvcmdlQ2FwcwADAA50cmlnZ2VyVGltZW91dAAAAAAGAAVzcGVlZAAAAAAAAAAAAQAJYWN0aXZhdGVkAAAA"
+                ]
+            }
+            location {
+                BlockType="minecraft:wall_sign"
+                ContentVersion=1
+                WorldName=PlayerShops
+                WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+                X=393.0
+                Y=109.0
+                Z=1.0
+            }
+            owner=cf52742c-fc78-4cb0-9f22-3c0aeeb75808
+            price=100000
+            sellerChest {
+                BlockType="minecraft:chest"
+                ContentVersion=1
+                WorldName=PlayerShops
+                WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+                X=389.0
+                Y=115.0
+                Z=2.0
+            }
+        }
+        type="com.carrot.carrotshop.shop.Buy"
+    },
+    {
+        shop {
+            itemsTemplate {
+                nbtitems=[
+                    "CgAAAwAOQ29udGVudFZlcnNpb24AAAABCAAISXRlbVR5cGUAGG1pbmVjcmFmdDpjb29rZWRfY2hpY2tlbgMADFVuc2FmZURhbWFnZQAAAAADAAVDb3VudAAAAAEKAApVbnNhZmVEYXRhAwAKUmVwYWlyQ29zdAAAAAAKAAdkaXNwbGF5CAAETmFtZQANRnJpZWQgQ2hpY2tlbgAKAAlGb3JnZUNhcHMAAAA="
+                ]
+            }
+            location {
+                BlockType="minecraft:wall_sign"
+                ContentVersion=1
+                WorldName=PlayerShops
+                WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+                X=580.0
+                Y=66.0
+                Z=-1234.0
+            }
+            price=25
+        }
+        type="com.carrot.carrotshop.shop.iBuy"
+    },
+    {
+        shop {
+            itemsTemplate {
+                nbtitems=[
+                    "CgAAAwAOQ29udGVudFZlcnNpb24AAAABCAAISXRlbVR5cGUAF3BuZXVtYXRpY2NyYWZ0Omd1bl9hbW1vAwAMVW5zYWZlRGFtYWdlAAAAAAMABUNvdW50AAAAAQoAClVuc2FmZURhdGEKAAlGb3JnZUNhcHMAAAA="
+                ]
+            }
+            location {
+                BlockType="minecraft:wall_sign"
+                ContentVersion=1
+                WorldName=PlayerShops
+                WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+                X=393.0
+                Y=108.0
+                Z=1.0
+            }
+            owner=cf52742c-fc78-4cb0-9f22-3c0aeeb75808
+            price=1000
+            sellerChest {
+                BlockType="minecraft:chest"
+                ContentVersion=1
+                WorldName=PlayerShops
+                WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+                X=387.0
+                Y=115.0
+                Z=2.0
+            }
+        }
+        type="com.carrot.carrotshop.shop.Buy"
+    },
+    {
+        shop {
+            itemsTemplate {
+                nbtitems=[
+                    "CgAAAwAOQ29udGVudFZlcnNpb24AAAABCAAISXRlbVR5cGUAFnRoZXJtYWxkeW5hbWljczpkdWN0XzADAAxVbnNhZmVEYW1hZ2UAAAAFAwAFQ291bnQAAAABCgAKVW5zYWZlRGF0YQoACUZvcmdlQ2FwcwAAAA=="
+                ]
+            }
+            location {
+                BlockType="minecraft:wall_sign"
+                ContentVersion=1
+                WorldName=PlayerShops
+                WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+                X=404.0
+                Y=109.0
+                Z=63.0
+            }
+            owner=dd2e2543-0678-4580-a541-ef215ee7c269
+            price=5000
+            sellerChest {
+                BlockType="minecraft:chest"
+                ContentVersion=1
+                WorldName=PlayerShops
+                WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+                X=404.0
+                Y=109.0
+                Z=61.0
+            }
+        }
+        type="com.carrot.carrotshop.shop.Buy"
+    },
+    {
+        shop {
+            itemsTemplate {
+                nbtitems=[
+                    "CgAAAwAOQ29udGVudFZlcnNpb24AAAABCAAISXRlbVR5cGUAHWFjdHVhbGx5YWRkaXRpb25zOml0ZW1fY29mZmVlAwAMVW5zYWZlRGFtYWdlAAAAAAMABUNvdW50AAAAAQoAClVuc2FmZURhdGEKAAlGb3JnZUNhcHMAAAA="
+                ]
+            }
+            location {
+                BlockType="minecraft:wall_sign"
+                ContentVersion=1
+                WorldName=PlayerShops
+                WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+                X=595.0
+                Y=65.0
+                Z=-1232.0
+            }
+            price=0
+        }
+        type="com.carrot.carrotshop.shop.iBuy"
+    },
+    {
+        shop {
+            itemsTemplate {
+                nbtitems=[
+                    "CgAAAwAOQ29udGVudFZlcnNpb24AAAABCAAISXRlbVR5cGUAF21pbmVjcmFmdDpxdWFydHpfc3RhaXJzAwAMVW5zYWZlRGFtYWdlAAAAAAMABUNvdW50AAAAAQoAClVuc2FmZURhdGEKAAlGb3JnZUNhcHMAAAA="
+                ]
+            }
+            location {
+                BlockType="minecraft:wall_sign"
+                ContentVersion=1
+                WorldName=tutorial
+                WorldUuid="45e9749e-a1d9-4692-aa8f-d293169288d9"
+                X=140.0
+                Y=74.0
+                Z=-386.0
+            }
+            owner="1fac544d-a129-44f1-9365-5e448637f2d9"
+            price=50
+            sellerChest {
+                BlockType="minecraft:air"
+                ContentVersion=1
+                WorldName=tutorial
+                WorldUuid="45e9749e-a1d9-4692-aa8f-d293169288d9"
+                X=138.0
+                Y=72.0
+                Z=-385.0
+            }
+        }
+        type="com.carrot.carrotshop.shop.Buy"
+    },
+    {
+        shop {
+            itemsTemplate {
+                nbtitems=[
+                    "CgAAAwAOQ29udGVudFZlcnNpb24AAAABCAAISXRlbVR5cGUAEXRjb25zdHJ1Y3Q6cmFwaWVyAwAMVW5zYWZlRGFtYWdlAAAAhgMABUNvdW50AAAAAQoAClVuc2FmZURhdGEKAA1TdGF0c09yaWdpbmFsBQAVQXR0YWNrU3BlZWRNdWx0aXBsaWVyP4AAAAUAC01pbmluZ1NwZWVkQVAAAAMADUZyZWVNb2RpZmllcnMAAAADAwAKRHVyYWJpbGl0eQAAAq8DAAxIYXJ2ZXN0TGV2ZWwAAAAEBQAGQXR0YWNrQVAAAAAKAAdkaXNwbGF5CAAETmFtZQASVEhFIEZVQ0tJTkcgS0lMTEVSAAoABVN0YXRzBQAVQXR0YWNrU3BlZWRNdWx0aXBsaWVyP4AAAAUAC01pbmluZ1NwZWVkQVgAAAMADUZyZWVNb2RpZmllcnMAAAAAAwAKRHVyYWJpbGl0eQAABKMDAAxIYXJ2ZXN0TGV2ZWwAAAAEBQAGQXR0YWNrQarFagAKAAdTcGVjaWFsCQAKQ2F0ZWdvcmllcwgAAAACAAR0b29sAAZ3ZWFwb24ACgAJRm9yZ2VDYXBzAAoAClRpbmtlckRhdGEDAA1Vc2VkTW9kaWZpZXJzAAAABgkACU1hdGVyaWFscwgAAAADABBzaWduYWx1bV9wbHVzdGljAA14dV9ldmlsX21ldGFsAAltYW55dWxseW4JAAlNb2RpZmllcnMIAAAABQAMdG9vbGxldmVsaW5nADBleHRyYXRyYWl0eHVfbWFnaWNhbF93b29kYnJpdHRsZW1hZ2ljYWxfbW9kaWZpZXIACXNoYXJwbmVzcwAHZGlhbW9uZAAJc291bGJvdW5kAAkACU1vZGlmaWVycwoAAAAKCAAKaWRlbnRpZmllcgAKYmxvb2R5bWFyeQMABWNvbG9y//9VVQMABWxldmVsAAAAAQAIAAppZGVudGlmaWVyAAx4dV93aXRoZXJpbmcDAAVjb2xvcv/9/6gDAAVsZXZlbAAAAAEACAAKaWRlbnRpZmllcgALY29sZGJsb29kZWQDAAVjb2xvcv+hXPgDAAVsZXZlbAAAAAEACAAKaWRlbnRpZmllcgAMdG9vbGxldmVsaW5nAwAFY29sb3IA////AwAFbGV2ZWwAAAABAwACeHAAAAFCAwAPYm9udXNfbW9kaWZpZXJzAAAAAAAIAAppZGVudGlmaWVyABBtYWdpY2FsX21vZGlmaWVyAwAFY29sb3L//f+oAwAFbGV2ZWwAAAABAQAQbWFnaWNhbF9tb2RpZmllcgEACAAKaWRlbnRpZmllcgAHYnJpdHRsZQMABWNvbG9y//3/qAMABWxldmVsAAAAAQAIAAppZGVudGlmaWVyADBleHRyYXRyYWl0eHVfbWFnaWNhbF93b29kYnJpdHRsZW1hZ2ljYWxfbW9kaWZpZXIDAAVjb2xvcv/9/6gACAAKaWRlbnRpZmllcgAJc2hhcnBuZXNzAwAHY3VycmVudAAAAWgDAAVjb2xvcgD/9vYDAAVsZXZlbAAAAAUDAANtYXgAAAFoCAAJZXh0cmFJbmZvAAkzNTkgLyAzNjAACAAKaWRlbnRpZmllcgAHZGlhbW9uZAMABWNvbG9yAIz04gAIAAppZGVudGlmaWVyAAlzb3VsYm91bmQDAAVjb2xvcgD1+6wACQAGVHJhaXRzCAAAAAYACmJsb29keW1hcnkADHh1X3dpdGhlcmluZwALY29sZGJsb29kZWQADHRvb2xsZXZlbGluZwAQbWFnaWNhbF9tb2RpZmllcgAHYnJpdHRsZQAA"
+                ]
+            }
+            location {
+                BlockType="minecraft:wall_sign"
+                ContentVersion=1
+                WorldName=PlayerShops
+                WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+                X=406.0
+                Y=110.0
+                Z=3.0
+            }
+            owner=cf52742c-fc78-4cb0-9f22-3c0aeeb75808
+            price=100000
+            sellerChest {
+                BlockType="minecraft:chest"
+                ContentVersion=1
+                WorldName=PlayerShops
+                WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+                X=388.0
+                Y=115.0
+                Z=0.0
+            }
+        }
+        type="com.carrot.carrotshop.shop.Buy"
+    },
+    {
+        shop {
+            itemsTemplate {
+                nbtitems=[
+                    "CgAAAwAOQ29udGVudFZlcnNpb24AAAABCAAISXRlbVR5cGUAGWhhcnZlc3RjcmFmdDppY2VjcmVhbWl0ZW0DAAxVbnNhZmVEYW1hZ2UAAAAAAwAFQ291bnQAAAABCgAKVW5zYWZlRGF0YQoACUZvcmdlQ2FwcwAAAA=="
+                ]
+            }
+            location {
+                BlockType="minecraft:wall_sign"
+                ContentVersion=1
+                WorldName=PlayerShops
+                WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+                X=588.0
+                Y=66.0
+                Z=-1184.0
+            }
+            price=5
+        }
+        type="com.carrot.carrotshop.shop.iBuy"
+    },
+    {
+        shop {
+            itemsTemplate {
+                nbtitems=[
+                    "CgAAAwAOQ29udGVudFZlcnNpb24AAAABCAAISXRlbVR5cGUAEnRjb25zdHJ1Y3Q6cGlja2F4ZQMADFVuc2FmZURhbWFnZQAAAAADAAVDb3VudAAAAAEKAApVbnNhZmVEYXRhCgANU3RhdHNPcmlnaW5hbAUAFUF0dGFja1NwZWVkTXVsdGlwbGllcj+AAAAFAAtNaW5pbmdTcGVlZEFAAAADAA1GcmVlTW9kaWZpZXJzAAAAAwMACkR1cmFiaWxpdHkAAAFAAwAMSGFydmVzdExldmVsAAAAAQUABkF0dGFja0BAAAAACgAFU3RhdHMFABVBdHRhY2tTcGVlZE11bHRpcGxpZXI/gAAABQALTWluaW5nU3BlZWRBSAAAAwANRnJlZU1vZGlmaWVycwAAAAIDAApEdXJhYmlsaXR5AAADNAMADEhhcnZlc3RMZXZlbAAAAAIFAAZBdHRhY2tAgAAAAAoAB1NwZWNpYWwJAApDYXRlZ29yaWVzCAAAAAMABHRvb2wAB2hhcnZlc3QAA2FvZQAKAAlGb3JnZUNhcHMACgAKVGlua2VyRGF0YQMADVVzZWRNb2RpZmllcnMAAAABCQAJTWF0ZXJpYWxzCAAAAAMACW1hbnl1bGx5bgAIZWxlY3RydW0ACG9ic2lkaWFuCQAJTW9kaWZpZXJzCAAAAAIADHRvb2xsZXZlbGluZwAHZGlhbW9uZAAJAAlNb2RpZmllcnMKAAAABQgACmlkZW50aWZpZXIAC2NvbGRibG9vZGVkAwAFY29sb3L/oVz4AwAFbGV2ZWwAAAABAAgACmlkZW50aWZpZXIACHNob2NraW5nAwAFY29sb3L/6NtJAwAFbGV2ZWwAAAABAAgACmlkZW50aWZpZXIAB2R1cml0b3MDAAVjb2xvcv9gHMQDAAVsZXZlbAAAAAEACAAKaWRlbnRpZmllcgAMdG9vbGxldmVsaW5nAwAFY29sb3IA////AwAFbGV2ZWwAAAABAAgACmlkZW50aWZpZXIAB2RpYW1vbmQDAAVjb2xvcgCM9OIACQAGVHJhaXRzCAAAAAQAC2NvbGRibG9vZGVkAAhzaG9ja2luZwAHZHVyaXRvcwAMdG9vbGxldmVsaW5nAAA="
+                ]
+            }
+            location {
+                BlockType="minecraft:wall_sign"
+                ContentVersion=1
+                WorldName=PlayerShops
+                WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+                X=386.0
+                Y=109.0
+                Z=2.0
+            }
+            owner=cf52742c-fc78-4cb0-9f22-3c0aeeb75808
+            price=10000
+            sellerChest {
+                BlockType="minecraft:chest"
+                ContentVersion=1
+                WorldName=PlayerShops
+                WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+                X=385.0
+                Y=116.0
+                Z=0.0
+            }
+        }
+        type="com.carrot.carrotshop.shop.Buy"
+    },
+    {
+        shop {
+            itemsTemplate {
+                nbtitems=[
+                    "CgAAAwAOQ29udGVudFZlcnNpb24AAAABCAAISXRlbVR5cGUAEG1pbmVjcmFmdDpwb3Rpb24DAAxVbnNhZmVEYW1hZ2UAAAAAAwAFQ291bnQAAAABCgAKVW5zYWZlRGF0YQgABlBvdGlvbgAZbWluZWNyYWZ0OmZpcmVfcmVzaXN0YW5jZQoACUZvcmdlQ2FwcwAAAA=="
+                ]
+            }
+            location {
+                BlockType="minecraft:wall_sign"
+                ContentVersion=1
+                WorldName=PlayerShops
+                WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+                X=603.0
+                Y=66.0
+                Z=-1218.0
+            }
+            price=5
+        }
+        type="com.carrot.carrotshop.shop.iBuy"
+    },
+    {
+        shop {
+            itemsTemplate {
+                nbtitems=[
+                    "CgAAAwAOQ29udGVudFZlcnNpb24AAAABCAAISXRlbVR5cGUADm1pbmVjcmFmdDpmaXNoAwAMVW5zYWZlRGFtYWdlAAAAAAMABUNvdW50AAAAAQoAClVuc2FmZURhdGEKAAlGb3JnZUNhcHMAAAA="
+                ]
+            }
+            location {
+                BlockType="minecraft:wall_sign"
+                ContentVersion=1
+                WorldName=PlayerShops
+                WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+                X=378.0
+                Y=109.0
+                Z=9.0
+            }
+            owner=cf52742c-fc78-4cb0-9f22-3c0aeeb75808
+            price=20
+            sellerChest {
+                BlockType="minecraft:chest"
+                ContentVersion=1
+                WorldName=PlayerShops
+                WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+                X=391.0
+                Y=115.0
+                Z=2.0
+            }
+        }
+        type="com.carrot.carrotshop.shop.Buy"
+    },
+    {
+        shop {
+            itemsTemplate {
+                nbtitems=[
+                    "CgAAAwAOQ29udGVudFZlcnNpb24AAAABCAAISXRlbVR5cGUAE21la2FuaXNtOmVuZXJneWN1YmUDAAxVbnNhZmVEYW1hZ2UAAAAAAwAFQ291bnQAAAABCgAKVW5zYWZlRGF0YQMABHRpZXIAAAADCgAHbWVrRGF0YQMACHNlY3VyaXR5AAAAAAYADGVuZXJneVN0b3JlZEGehIAAAAAAAAoACUZvcmdlQ2FwcwAAAA=="
+                ]
+            }
+            location {
+                BlockType="minecraft:wall_sign"
+                ContentVersion=1
+                WorldName=PlayerShops
+                WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+                X=407.0
+                Y=109.0
+                Z=63.0
+            }
+            owner=cf52742c-fc78-4cb0-9f22-3c0aeeb75808
+            price=4000
+            sellerChest {
+                BlockType="minecraft:chest"
+                ContentVersion=1
+                WorldName=PlayerShops
+                WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+                X=406.0
+                Y=109.0
+                Z=61.0
+            }
+        }
+        type="com.carrot.carrotshop.shop.Buy"
+    },
+    {
+        shop {
+            itemsTemplate {
+                nbtitems=[
+                    "CgAAAwAOQ29udGVudFZlcnNpb24AAAABCAAISXRlbVR5cGUAGG1pbmVjcmFmdDpjb29rZWRfY2hpY2tlbgMADFVuc2FmZURhbWFnZQAAAAADAAVDb3VudAAAAAEKAApVbnNhZmVEYXRhAwAKUmVwYWlyQ29zdAAAAAAKAAdkaXNwbGF5CAAETmFtZQANRnJpZWQgQ2hpY2tlbgAKAAlGb3JnZUNhcHMAAAA="
+                ]
+            }
+            location {
+                BlockType="minecraft:wall_sign"
+                ContentVersion=1
+                WorldName=PlayerShops
+                WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+                X=556.0
+                Y=66.0
+                Z=-1166.0
+            }
+            price=25
+        }
+        type="com.carrot.carrotshop.shop.iBuy"
+    },
+    {
+        shop {
+            itemsTemplate {
+                nbtitems=[
+                    CgAAAwAOQ29udGVudFZlcnNpb24AAAABCAAISXRlbVR5cGUAFW1pbmVjcmFmdDp3aGVhdF9zZWVkcwMADFVuc2FmZURhbWFnZQAAAAADAAVDb3VudAAAABAKAApVbnNhZmVEYXRhCgAJRm9yZ2VDYXBzAAAA,
+                    "CgAAAwAOQ29udGVudFZlcnNpb24AAAABCAAISXRlbVR5cGUAF21pbmVjcmFmdDpwdW1wa2luX3NlZWRzAwAMVW5zYWZlRGFtYWdlAAAAAAMABUNvdW50AAAAEAoAClVuc2FmZURhdGEKAAlGb3JnZUNhcHMAAAA=",
+                    CgAAAwAOQ29udGVudFZlcnNpb24AAAABCAAISXRlbVR5cGUAFW1pbmVjcmFmdDptZWxvbl9zZWVkcwMADFVuc2FmZURhbWFnZQAAAAADAAVDb3VudAAAABAKAApVbnNhZmVEYXRhCgAJRm9yZ2VDYXBzAAAA,
+                    CgAAAwAOQ29udGVudFZlcnNpb24AAAABCAAISXRlbVR5cGUAGG1pbmVjcmFmdDpiZWV0cm9vdF9zZWVkcwMADFVuc2FmZURhbWFnZQAAAAADAAVDb3VudAAAABAKAApVbnNhZmVEYXRhCgAJRm9yZ2VDYXBzAAAA,
+                    "CgAAAwAOQ29udGVudFZlcnNpb24AAAABCAAISXRlbVR5cGUAImFjdHVhbGx5YWRkaXRpb25zOml0ZW1fY2Fub2xhX3NlZWQDAAxVbnNhZmVEYW1hZ2UAAAAAAwAFQ291bnQAAAAQCgAKVW5zYWZlRGF0YQoACUZvcmdlQ2FwcwAAAA==",
+                    "CgAAAwAOQ29udGVudFZlcnNpb24AAAABCAAISXRlbVR5cGUAIGFjdHVhbGx5YWRkaXRpb25zOml0ZW1fZmxheF9zZWVkAwAMVW5zYWZlRGFtYWdlAAAAAAMABUNvdW50AAAAEAoAClVuc2FmZURhdGEKAAlGb3JnZUNhcHMAAAA=",
+                    "CgAAAwAOQ29udGVudFZlcnNpb24AAAABCAAISXRlbVR5cGUAImFjdHVhbGx5YWRkaXRpb25zOml0ZW1fY29mZmVlX3NlZWQDAAxVbnNhZmVEYW1hZ2UAAAAAAwAFQ291bnQAAAAQCgAKVW5zYWZlRGF0YQoACUZvcmdlQ2FwcwAAAA==",
+                    "CgAAAwAOQ29udGVudFZlcnNpb24AAAABCAAISXRlbVR5cGUAGWltbWVyc2l2ZWVuZ2luZWVyaW5nOnNlZWQDAAxVbnNhZmVEYW1hZ2UAAAAAAwAFQ291bnQAAAAQCgAKVW5zYWZlRGF0YQoACUZvcmdlQ2FwcwAAAA==",
+                    "CgAAAwAOQ29udGVudFZlcnNpb24AAAABCAAISXRlbVR5cGUAHGhhcnZlc3RjcmFmdDpyaHViYXJic2VlZGl0ZW0DAAxVbnNhZmVEYW1hZ2UAAAAAAwAFQ291bnQAAAAQCgAKVW5zYWZlRGF0YQoACUZvcmdlQ2FwcwAAAA=="
+                ]
+            }
+            location {
+                BlockType="minecraft:stonebrick"
+                ContentVersion=1
+                WorldName=PlayerShops
+                WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+                X=379.0
+                Y=110.0
+                Z=86.0
+            }
+            price=800
+        }
+        type="com.carrot.carrotshop.shop.iBuy"
+    },
+    {
+        shop {
+            itemsTemplate {
+                nbtitems=[
+                    "CgAAAwAOQ29udGVudFZlcnNpb24AAAABCAAISXRlbVR5cGUAGmhhcnZlc3RjcmFmdDpjcmFuYmVycnlpdGVtAwAMVW5zYWZlRGFtYWdlAAAAAAMABUNvdW50AAAAAQoAClVuc2FmZURhdGEKAAlGb3JnZUNhcHMAAAA="
+                ]
+            }
+            location {
+                BlockType="minecraft:wall_sign"
+                ContentVersion=1
+                WorldName=PlayerShops
+                WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+                X=503.0
+                Y=66.0
+                Z=-1169.0
+            }
+            price=2
+        }
+        type="com.carrot.carrotshop.shop.iBuy"
+    },
+    {
+        shop {
+            itemsTemplate {
+                nbtitems=[
+                    "CgAAAwAOQ29udGVudFZlcnNpb24AAAABCAAISXRlbVR5cGUADm1pbmVjcmFmdDpmaXNoAwAMVW5zYWZlRGFtYWdlAAAAAAMABUNvdW50AAAAAQoAClVuc2FmZURhdGEKAAlGb3JnZUNhcHMAAAA="
+                ]
+            }
+            location {
+                BlockType="minecraft:wall_sign"
+                ContentVersion=1
+                WorldName=PlayerShops
+                WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+                X=380.0
+                Y=109.0
+                Z=9.0
+            }
+            owner=cf52742c-fc78-4cb0-9f22-3c0aeeb75808
+            price=10
+            sellerChest {
+                BlockType="minecraft:chest"
+                ContentVersion=1
+                WorldName=PlayerShops
+                WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+                X=391.0
+                Y=115.0
+                Z=2.0
+            }
+        }
+        type="com.carrot.carrotshop.shop.Buy"
+    },
+    {
+        shop {
+            itemsTemplate {
+                nbtitems=[
+                    "CgAAAwAOQ29udGVudFZlcnNpb24AAAABCAAISXRlbVR5cGUADGNvbmFybTpib290cwMADFVuc2FmZURhbWFnZQAAAYIDAAVDb3VudAAAAAEKAApVbnNhZmVEYXRhCgANU3RhdHNPcmlnaW5hbAUACVRvdWdobmVzc0BAAAADAA1GcmVlTW9kaWZpZXJzAAAAAwMACkR1cmFiaWxpdHkAAAGTBQAHRGVmZW5zZUGQAAAACgAFU3RhdHMFAAlUb3VnaG5lc3NAszMzAwANRnJlZU1vZGlmaWVycwAAAAIDAApEdXJhYmlsaXR5AAAC8gUAB0RlZmVuc2VBzMzNAAoAB1NwZWNpYWwDAAtSZXBhaXJDb3VudAAAAAIACgAJRm9yZ2VDYXBzAAoAClRpbmtlckRhdGEDAA1Vc2VkTW9kaWZpZXJzAAAAAwkACU1hdGVyaWFscwgAAAADAAtoYXJkX2NhcmJvbgAJbWFueXVsbHluAAVzdGVlbAkACU1vZGlmaWVycwgAAAAEAA5sZXZlbGluZ19hcm1vcgAUZmlyZV9yZXNpc3RhbnRfYXJtb3IADWVtZXJhbGRfYXJtb3IADWRpYW1vbmRfYXJtb3IACQAJTW9kaWZpZXJzCgAAAAcIAAppZGVudGlmaWVyABFsaWdodHdlaWdodF9hcm1vcgMABWNvbG9y/xlZcAMABWxldmVsAAAAAQAIAAppZGVudGlmaWVyAA5wcmlkZWZ1bF9hcm1vcgMABWNvbG9y/xlZcAMABWxldmVsAAAAAQAIAAppZGVudGlmaWVyABFpbmRvbWl0YWJsZV9hcm1vcgMABWNvbG9y/6enpwMABWxldmVsAAAAAQAIAAppZGVudGlmaWVyAA5sZXZlbGluZ19hcm1vcgMABWNvbG9yAP///wMABWxldmVsAAAAAwMAAnhwAAAAJwMAD2JvbnVzX21vZGlmaWVycwAAAAIACAAKaWRlbnRpZmllcgAUZmlyZV9yZXNpc3RhbnRfYXJtb3IDAAVjb2xvcgDqnjIDAAVsZXZlbAAAAAIBAAxtb2RpZmllclVzZWQBAAgACmlkZW50aWZpZXIADWVtZXJhbGRfYXJtb3IDAAVjb2xvcgBB84QACAAKaWRlbnRpZmllcgANZGlhbW9uZF9hcm1vcgMABWNvbG9yAIz04gAJAAZUcmFpdHMIAAAABQARbGlnaHR3ZWlnaHRfYXJtb3IADnByaWRlZnVsX2FybW9yABFpbmRvbWl0YWJsZV9hcm1vcgAObGV2ZWxpbmdfYXJtb3IAFGZpcmVfcmVzaXN0YW50X2FybW9yAAA=",
+                    "CgAAAwAOQ29udGVudFZlcnNpb24AAAABCAAISXRlbVR5cGUAD2NvbmFybTpsZWdnaW5ncwMADFVuc2FmZURhbWFnZQAAASsDAAVDb3VudAAAAAEKAApVbnNhZmVEYXRhCgANU3RhdHNPcmlnaW5hbAUACVRvdWdobmVzc0BAAAADAA1GcmVlTW9kaWZpZXJzAAAAAwMACkR1cmFiaWxpdHkAAAHRBQAHRGVmZW5zZUGQAAAACgAFU3RhdHMFAAlUb3VnaG5lc3NAszMzAwANRnJlZU1vZGlmaWVycwAAAAIDAApEdXJhYmlsaXR5AAADTwUAB0RlZmVuc2VBzMzNAAoAB1NwZWNpYWwDAAtSZXBhaXJDb3VudAAAAAIACgAJRm9yZ2VDYXBzAAoAClRpbmtlckRhdGEDAA1Vc2VkTW9kaWZpZXJzAAAAAwkACU1hdGVyaWFscwgAAAADAAtoYXJkX2NhcmJvbgAJbWFueXVsbHluAAVzdGVlbAkACU1vZGlmaWVycwgAAAAEAA5sZXZlbGluZ19hcm1vcgAUZmlyZV9yZXNpc3RhbnRfYXJtb3IADWVtZXJhbGRfYXJtb3IADWRpYW1vbmRfYXJtb3IACQAJTW9kaWZpZXJzCgAAAAcIAAppZGVudGlmaWVyABFsaWdodHdlaWdodF9hcm1vcgMABWNvbG9y/xlZcAMABWxldmVsAAAAAQAIAAppZGVudGlmaWVyAA5wcmlkZWZ1bF9hcm1vcgMABWNvbG9y/xlZcAMABWxldmVsAAAAAQAIAAppZGVudGlmaWVyABFpbmRvbWl0YWJsZV9hcm1vcgMABWNvbG9y/6enpwMABWxldmVsAAAAAQAIAAppZGVudGlmaWVyAA5sZXZlbGluZ19hcm1vcgMABWNvbG9yAP///wMABWxldmVsAAAAAwMAAnhwAAAAJgMAD2JvbnVzX21vZGlmaWVycwAAAAIACAAKaWRlbnRpZmllcgAUZmlyZV9yZXNpc3RhbnRfYXJtb3IDAAVjb2xvcgDqnjIDAAVsZXZlbAAAAAIBAAxtb2RpZmllclVzZWQBAAgACmlkZW50aWZpZXIADWVtZXJhbGRfYXJtb3IDAAVjb2xvcgBB84QACAAKaWRlbnRpZmllcgANZGlhbW9uZF9hcm1vcgMABWNvbG9yAIz04gAJAAZUcmFpdHMIAAAABQARbGlnaHR3ZWlnaHRfYXJtb3IADnByaWRlZnVsX2FybW9yABFpbmRvbWl0YWJsZV9hcm1vcgAObGV2ZWxpbmdfYXJtb3IAFGZpcmVfcmVzaXN0YW50X2FybW9yAAA=",
+                    "CgAAAwAOQ29udGVudFZlcnNpb24AAAABCAAISXRlbVR5cGUAEWNvbmFybTpjaGVzdHBsYXRlAwAMVW5zYWZlRGFtYWdlAAAAygMABUNvdW50AAAAAQoAClVuc2FmZURhdGEKAA1TdGF0c09yaWdpbmFsBQAJVG91Z2huZXNzQEAAAAMADUZyZWVNb2RpZmllcnMAAAADAwAKRHVyYWJpbGl0eQAAAfAFAAdEZWZlbnNlQZAAAAAKAAVTdGF0cwUACVRvdWdobmVzc0CzMzMDAA1GcmVlTW9kaWZpZXJzAAAAAQMACkR1cmFiaWxpdHkAAAN+BQAHRGVmZW5zZUHMzM0ACgAHU3BlY2lhbAMAC1JlcGFpckNvdW50AAAAAgAKAAlGb3JnZUNhcHMACgAKVGlua2VyRGF0YQMADVVzZWRNb2RpZmllcnMAAAADCQAJTWF0ZXJpYWxzCAAAAAMAC2hhcmRfY2FyYm9uAAltYW55dWxseW4ABXN0ZWVsCQAJTW9kaWZpZXJzCAAAAAQADmxldmVsaW5nX2FybW9yABRmaXJlX3Jlc2lzdGFudF9hcm1vcgANZW1lcmFsZF9hcm1vcgANZGlhbW9uZF9hcm1vcgAJAAlNb2RpZmllcnMKAAAABwgACmlkZW50aWZpZXIAEWxpZ2h0d2VpZ2h0X2FybW9yAwAFY29sb3L/GVlwAwAFbGV2ZWwAAAABAAgACmlkZW50aWZpZXIADnByaWRlZnVsX2FybW9yAwAFY29sb3L/GVlwAwAFbGV2ZWwAAAABAAgACmlkZW50aWZpZXIAEWluZG9taXRhYmxlX2FybW9yAwAFY29sb3L/p6enAwAFbGV2ZWwAAAABAAgACmlkZW50aWZpZXIADmxldmVsaW5nX2FybW9yAwAFY29sb3IA////AwAFbGV2ZWwAAAACAwACeHAAAACkAwAPYm9udXNfbW9kaWZpZXJzAAAAAQAIAAppZGVudGlmaWVyABRmaXJlX3Jlc2lzdGFudF9hcm1vcgMABWNvbG9yAOqeMgMABWxldmVsAAAAAgEADG1vZGlmaWVyVXNlZAEACAAKaWRlbnRpZmllcgANZW1lcmFsZF9hcm1vcgMABWNvbG9yAEHzhAAIAAppZGVudGlmaWVyAA1kaWFtb25kX2FybW9yAwAFY29sb3IAjPTiAAkABlRyYWl0cwgAAAAFABFsaWdodHdlaWdodF9hcm1vcgAOcHJpZGVmdWxfYXJtb3IAEWluZG9taXRhYmxlX2FybW9yAA5sZXZlbGluZ19hcm1vcgAUZmlyZV9yZXNpc3RhbnRfYXJtb3IAAA==",
+                    "CgAAAwAOQ29udGVudFZlcnNpb24AAAABCAAISXRlbVR5cGUADWNvbmFybTpoZWxtZXQDAAxVbnNhZmVEYW1hZ2UAAAD9AwAFQ291bnQAAAABCgAKVW5zYWZlRGF0YQoADVN0YXRzT3JpZ2luYWwFAAlUb3VnaG5lc3NAQAAAAwANRnJlZU1vZGlmaWVycwAAAAMDAApEdXJhYmlsaXR5AAABVQUAB0RlZmVuc2VBkAAAAAoABVN0YXRzBQAJVG91Z2huZXNzQLMzMwMADUZyZWVNb2RpZmllcnMAAAABAwAKRHVyYWJpbGl0eQAAApUFAAdEZWZlbnNlQczMzQAKAAdTcGVjaWFsAwALUmVwYWlyQ291bnQAAAADAAoACUZvcmdlQ2FwcwAKAApUaW5rZXJEYXRhAwANVXNlZE1vZGlmaWVycwAAAAQJAAlNYXRlcmlhbHMIAAAAAwALaGFyZF9jYXJib24ACW1hbnl1bGx5bgAFc3RlZWwJAAlNb2RpZmllcnMIAAAABQAObGV2ZWxpbmdfYXJtb3IADWVtZXJhbGRfYXJtb3IADWRpYW1vbmRfYXJtb3IAFGZpcmVfcmVzaXN0YW50X2FybW9yABBhbXBoaWJpb3VzX2FybW9yAAkACU1vZGlmaWVycwoAAAAICAAKaWRlbnRpZmllcgARbGlnaHR3ZWlnaHRfYXJtb3IDAAVjb2xvcv8ZWXADAAVsZXZlbAAAAAEACAAKaWRlbnRpZmllcgAOcHJpZGVmdWxfYXJtb3IDAAVjb2xvcv8ZWXADAAVsZXZlbAAAAAEACAAKaWRlbnRpZmllcgARaW5kb21pdGFibGVfYXJtb3IDAAVjb2xvcv+np6cDAAVsZXZlbAAAAAEACAAKaWRlbnRpZmllcgAObGV2ZWxpbmdfYXJtb3IDAAVjb2xvcgD///8DAAVsZXZlbAAAAAMDAAJ4cAAAACYDAA9ib251c19tb2RpZmllcnMAAAACAAgACmlkZW50aWZpZXIADWVtZXJhbGRfYXJtb3IDAAVjb2xvcgBB84QACAAKaWRlbnRpZmllcgANZGlhbW9uZF9hcm1vcgMABWNvbG9yAIz04gAIAAppZGVudGlmaWVyABRmaXJlX3Jlc2lzdGFudF9hcm1vcgMABWNvbG9yAOqeMgMABWxldmVsAAAAAgEADG1vZGlmaWVyVXNlZAEACAAKaWRlbnRpZmllcgAQYW1waGliaW91c19hcm1vcgMABWNvbG9yAADM/wMABWxldmVsAAAAAQMABm94eWdlbgAABLAACQAGVHJhaXRzCAAAAAYAEWxpZ2h0d2VpZ2h0X2FybW9yAA5wcmlkZWZ1bF9hcm1vcgARaW5kb21pdGFibGVfYXJtb3IADmxldmVsaW5nX2FybW9yABRmaXJlX3Jlc2lzdGFudF9hcm1vcgAQYW1waGliaW91c19hcm1vcgAA"
+                ]
+            }
+            location {
+                BlockType="minecraft:wall_sign"
+                ContentVersion=1
+                WorldName=PlayerShops
+                WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+                X=380.0
+                Y=118.0
+                Z=5.0
+            }
+            owner=cf52742c-fc78-4cb0-9f22-3c0aeeb75808
+            price=100000
+            sellerChest {
+                BlockType="minecraft:chest"
+                ContentVersion=1
+                WorldName=PlayerShops
+                WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+                X=394.0
+                Y=115.0
+                Z=0.0
+            }
+        }
+        type="com.carrot.carrotshop.shop.Buy"
+    },
+    {
+        shop {
+            itemsTemplate {
+                nbtitems=[
+                    "CgAAAwAOQ29udGVudFZlcnNpb24AAAABCAAISXRlbVR5cGUAHGhhcnZlc3RjcmFmdDpjb3R0b25jYW5keWl0ZW0DAAxVbnNhZmVEYW1hZ2UAAAAAAwAFQ291bnQAAAABCgAKVW5zYWZlRGF0YQoACUZvcmdlQ2FwcwAAAA=="
+                ]
+            }
+            location {
+                BlockType="minecraft:wall_sign"
+                ContentVersion=1
+                WorldName=PlayerShops
+                WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+                X=592.0
+                Y=65.0
+                Z=-1188.0
+            }
+            price=2
+        }
+        type="com.carrot.carrotshop.shop.iBuy"
+    },
+    {
+        shop {
+            itemsTemplate {
+                nbtitems=[
+                    "CgAAAwAOQ29udGVudFZlcnNpb24AAAABCAAISXRlbVR5cGUAF2hhcnZlc3RjcmFmdDpob3Rkb2dpdGVtAwAMVW5zYWZlRGFtYWdlAAAAAAMABUNvdW50AAAAAQoAClVuc2FmZURhdGEKAAlGb3JnZUNhcHMAAAA="
+                ]
+            }
+            location {
+                BlockType="minecraft:wall_sign"
+                ContentVersion=1
+                WorldName=PlayerShops
+                WorldUuid="9f70fc95-ae8f-4752-8394-969562e058ab"
+                X=594.0
+                Y=65.0
+                Z=-1193.0
+            }
+            price=5
+        }
+        type="com.carrot.carrotshop.shop.iBuy"
+    }
+]
